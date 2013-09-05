@@ -1,0 +1,39 @@
+{
+  "name": "randomuser",
+  "description": "A Simple Node.js Library for the http://randomuser.me REST API",
+  "homepage": "https://github.com/KevinTCoughlin/node-randomuser",
+  "keywords": [
+    "random",
+    "user",
+    "fake",
+    "data",
+    "placeholder"
+  ],
+  "version": "0.0.9",
+  "author": "Kevin Coughlin <kevintcoughlin@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:KevinTCoughlin/node-randomuser.git"
+  },
+  "bugs": "https://github.com/KevinTCoughlin/node-randomuser/issues",
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "request": "2.x.x",
+    "qs": "0.6.x"
+  },
+  "devDependencies": {
+    "supertest": "*",
+    "mocha": ">= 1.11.0",
+    "should": ">= 1.2.2"
+  },
+  "directories": {
+    "lib": "./lib"
+  },
+  "engines": {
+    "node": ">= 0.6"
+  },
+  "main": "./lib/index"
+}
