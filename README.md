@@ -6,7 +6,7 @@
 
 Install using the node.js package manager [npm](http://npmjs.org/):
 
-    $ npm install randomuser
+    $ npm install --save randomuser
     
 Or...
 
@@ -20,7 +20,7 @@ Install via git clone:
 
 You can install randomuser and its dependencies with npm: 
   
-    $ npm install randomuser
+    $ npm install --save randomuser
 
 Dependencies
 
@@ -38,8 +38,19 @@ Demos of the randomuser module are located in: [./examples](https://github.com/K
 
 ```javascript
 var RandomUser = require('..')
-  , r = new RandomUser();
+    // optional configuration
+  , config = { local: false /*default*/, baseUrl: 'http://api.randomuser.me/' /*default*/ }
+  , r = new RandomUser(config);
 ```
+
+#### config
+
+The configuration is optional. The default is to call out to the true <http://api.randomuser.me>
+
+  * `local` - when `true` this ignores `baseUrl` and generates a random user locally.
+    * defaults to `false`
+  * `baseUrl` - set to a randomuser clone such as [`http://randomuser.coolaj86.com/api/`](http://randomuser.coolaj86.com/api/)
+    * defaults to [`http://api.randomuser.me/`](http://api.randomuser.me/)
 
 ### .getUsers(callback)
 
@@ -76,6 +87,12 @@ Or...
 ## Contributing
 
 Feel free to contribute!
+
+  * AJ ONeal - May 20, 2014 - Preparing for attack of the clones (added `local` and `baseUrl` options).
+
+## Hosting your own randomuser api
+
+Check out <http://github.com/coolaj86/randomuser-as-a-service>
 
 ## License
 
