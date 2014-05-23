@@ -5,11 +5,24 @@ var request = require('request')
   , fs = require('fs')
   , path = require('path')
   , count = 0
+  , increment = 500
   ;
+
+console.log("We currently have", data.results.length, "profiles... ");
+console.log("and we're gonna get", increment, "more!!!");
 
 function write() {
   console.log(data.results.length, 'total profiles accumulated');
-  fs.writeFile(path.resolve(__dirname, '../cache/data.json'), JSON.stringify(data, null, '  '));
+  console.log('Saving...');
+  fs.writeFile(path.resolve(__dirname, '../cache/data.json'), JSON.stringify(data, null, '  '), function (err) {
+    if (err) {
+      console.error('ERROR!!');
+      console.error(err);
+      return;
+    }
+
+    console.log('Saved!');
+  });
 }
 
 function getMore() {
