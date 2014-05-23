@@ -9,7 +9,7 @@
     "data",
     "placeholder"
   ],
-  "version": "1.2.0",
+  "version": "1.2.1",
   "author": "Kevin Coughlin <kevintcoughlin@gmail.com>",
   "license": "MIT",
   "repository": {
@@ -28,7 +28,8 @@
   "devDependencies": {
     "supertest": "*",
     "mocha": ">= 1.11.0",
-    "should": ">= 1.2.2"
+    "should": ">= 1.2.2",
+    "lodash": "~2.4.1"
   },
   "directories": {
     "lib": "./lib"
