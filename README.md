@@ -1,5 +1,4 @@
 # node-randomuser
-## A node.js library for https://randomuser.me/
 
 [![npm version](https://img.shields.io/npm/v/randomuser.svg?style=flat-square)](https://www.npmjs.com/package/randomuser)
 
