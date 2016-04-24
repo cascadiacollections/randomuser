@@ -1,5 +1,6 @@
 # node-randomuser
 
+[![Build Status](https://img.shields.io/travis/KevinTCoughlin/node-randomuser.svg?style=flat-square)](https://travis-ci.org/KevinTCoughlin/node-randomuser)
 [![npm version](https://img.shields.io/npm/v/randomuser.svg?style=flat-square)](https://www.npmjs.com/package/randomuser)
 
 ## Installation
