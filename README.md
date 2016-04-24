@@ -1,32 +1,12 @@
-# node-randomuser -- A (tiny) Node.js library for http://randomuser.me's REST API
+# node-randomuser - A node.js library for https://randomuser.me/'s API
 
-[![NPM](https://nodei.co/npm/randomuser.png)](https://nodei.co/npm/randomuser/)
+[![npm version](https://img.shields.io/npm/v/randomuser.svg?style=flat-square)](https://www.npmjs.com/package/randomuser)
 
 ## Installation
 
 Install using the node.js package manager [npm](http://npmjs.org/):
 
     $ npm install randomuser
-    
-Or...
-
-Install via git clone:
-
-    $ git clone git://github.com/KevinTCoughlin/node-randomuser.git
-    $ cd node-randomuser
-    $ npm install
-
-## Requirements
-
-You can install randomuser and its dependencies with npm: 
-  
-    $ npm install randomuser
-
-Dependencies
-
-* [Node.js](http://nodejs.org/) >= v0.6
-* [Request](https://github.com/mikeal/request) v2.x.x
-* [qs](https://github.com/visionmedia/node-querystring) v0.6.x
 
 ## Examples
 
@@ -79,7 +59,7 @@ Feel free to contribute!
 
 ## License
 
-node-randomuser: Copyright (c) 2013 Kevin Coughlin <kevintcoughlin@gmail.com>
+node-randomuser: Copyright (c) 2013-2016 Kevin Coughlin <kevintcoughlin@gmail.com>
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
