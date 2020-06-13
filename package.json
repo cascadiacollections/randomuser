@@ -22,7 +22,7 @@
   },
   "dependencies": {
     "request": "2.x.x",
-    "qs": "0.6.x"
+    "qs": "6.9.x"
   },
   "devDependencies": {
     "supertest": "*",
