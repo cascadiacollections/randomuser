@@ -22,5 +22,8 @@
   "devDependencies": {
     "mocha": "^8.0.1",
     "should": "^13.2.3"
+  },
+  "publishConfig":{
+    "registry":"https://registry.npmjs.org/"
   }
 }
