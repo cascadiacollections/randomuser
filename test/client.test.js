@@ -1,8 +1,6 @@
-/** 
- * Tests for RandomUser Node client
- * Test Framework: Mocha (http://visionmedia.github.io/mocha/)
- * Assertions: Should (https://github.com/visionmedia/should.js/) 
- */
+// @ts-check
+'use strict';
+
 var RandomUser = require('..')
   , should = require('should')
   , r;

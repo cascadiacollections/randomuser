@@ -1,3 +1,6 @@
+// @ts-check
+'use strict';
+
 var RandomUser = require('..')
   , r = new RandomUser();
 
