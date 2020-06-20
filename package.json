@@ -16,8 +16,8 @@
     "test": "mocha"
   },
   "dependencies": {
-    "request": "2.x.x",
-    "qs": "6.9.x"
+    "request": "^2.88.2",
+    "qs": "^6.9.4"
   },
   "devDependencies": {
     "mocha": "^8.0.1",

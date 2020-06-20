@@ -1169,6 +1169,6 @@ packages:
       integrity: sha1-rX/+/sGqWVZayRX4Lcyzipwxot0=
 specifiers:
   mocha: ^8.0.1
-  qs: 6.9.x
-  request: 2.x.x
+  qs: ^6.9.4
+  request: ^2.88.2
   should: ^13.2.3
