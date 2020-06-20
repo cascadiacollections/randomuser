@@ -1,7 +1,7 @@
 // @ts-check
 'use strict';
 
-var RandomUser = require('..')
+var RandomUser = require('..').RandomUser
   , should = require('should')
   , r;
 
@@ -11,7 +11,7 @@ beforeEach(function(){
 
 describe('r.getUsers()', function() {
   this.timeout(15000);
-  
+
   it('should throw error if callback is not typeof function', function () {
     (function() {
       r.getUsers(null, null, 'string');

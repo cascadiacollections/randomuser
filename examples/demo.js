@@ -1,7 +1,7 @@
 // @ts-check
 'use strict';
 
-var RandomUser = require('..')
+var RandomUser = require('../lib/index').RandomUser
   , r = new RandomUser();
 
 r.getUsers(function(data) {
