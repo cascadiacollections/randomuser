@@ -1,7 +1,7 @@
 {
   "name": "randomuser",
   "description": "A Simple Node.js Library for the https://randomuser.me REST API",
-  "homepage": "https://github.com/cascadiacollections/node-randomuser",
+  "homepage": "https://github.com/cascadiacollections/randomuser",
   "keywords": [
     "random",
     "user",
