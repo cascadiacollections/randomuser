@@ -1,7 +1,7 @@
 {
   "name": "randomuser",
-  "description": "A Simple Node.js Library for the http://randomuser.me REST API",
-  "homepage": "https://github.com/KevinTCoughlin/node-randomuser",
+  "description": "A Simple Node.js Library for the https://randomuser.me REST API",
+  "homepage": "https://github.com/cascadiacollections/node-randomuser",
   "keywords": [
     "random",
     "user",
@@ -9,31 +9,20 @@
     "data",
     "placeholder"
   ],
+  "main": "./lib/index.js",
   "version": "1.1.0",
-  "author": "Kevin Coughlin <kevintcoughlin@gmail.com>",
   "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "git@github.com:KevinTCoughlin/node-randomuser.git"
-  },
-  "bugs": "https://github.com/KevinTCoughlin/node-randomuser/issues",
   "scripts": {
-    "test": "mocha"
+    "build": "gulp test --clean"
   },
   "dependencies": {
-    "request": "2.x.x",
-    "qs": "6.9.x"
+    "request": "2.88.2"
   },
   "devDependencies": {
-    "supertest": "*",
-    "mocha": ">= 1.11.0",
-    "should": ">= 1.2.2"
-  },
-  "directories": {
-    "lib": "./lib"
-  },
-  "engines": {
-    "node": ">= 0.6"
-  },
-  "main": "./lib/index"
+    "@microsoft/node-library-build": "6.4.25",
+    "@microsoft/rush-stack-compiler-3.9": "0.2.1",
+    "@types/node": "10.17.13",
+    "@types/request": "2.48.5",
+    "gulp": "~4.0.2"
+  }
 }
