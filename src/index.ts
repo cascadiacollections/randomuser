@@ -19,23 +19,23 @@ class RandomUser {
      * @param {Object}    params    Optional parameters for user generation API request
      * @param {Function}    callback    Callback function that will be called when the processing is done.
      */
-    getUsers(params: any, callback: (body: any) => void) {
+    getUsers(params?: any, callback?: (body: any) => void) {
         var url = this.options.baseURL + "?";
 
         if (typeof params === 'function') {
             callback = params;
             params = null;
         }
+
         if (typeof callback !== 'function') {
             throw new Error('ERROR: Invalid callback function.');
-        }
-        else if (typeof params === 'object') {
+        } else if (typeof params === 'object') {
             url += qs.stringify(params);
         }
 
         request.get(url, function (error: any, response: any, body: any) {
             if (!error && response.statusCode == 200) {
-                callback(JSON.parse(body).results);
+                callback!(JSON.parse(body).results);
             }
             if (error) {
                 throw new Error(error);
@@ -46,4 +46,4 @@ class RandomUser {
     }
 }
 
-export { RandomUser }
+export = RandomUser;

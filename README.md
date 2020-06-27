@@ -17,7 +17,7 @@ Demos of the randomuser module are located in: [./examples](https://github.com/c
 ### Require Module and Initialize Client
 
 ```javascript
-var RandomUser = require('randomuser').RandomUser
+var RandomUser = require('randomuser')
   , r = new RandomUser();
 ```
 
