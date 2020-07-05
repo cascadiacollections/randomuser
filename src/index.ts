@@ -13,18 +13,19 @@ class RandomUser {
             baseURL: 'https://api.randomuser.me/'
         };
     }
+
     /**
      * Retrieves randomly generated users from API with optional parameters.
      *
      * @param {Object}    params    Optional parameters for user generation API request
      * @param {Function}    callback    Callback function that will be called when the processing is done.
      */
-    getUsers(params?: any, callback?: (body: any) => void) {
-        var url = this.options.baseURL + "?";
+    public getUsers(params?: any, callback?: (body: any) => void): RandomUser { // tslint:disable-line:no-any
+        let url: string = this.options.baseURL + '?';
 
         if (typeof params === 'function') {
             callback = params;
-            params = null;
+            params = undefined;
         }
 
         if (typeof callback !== 'function') {
@@ -33,8 +34,8 @@ class RandomUser {
             url += qs.stringify(params);
         }
 
-        request.get(url, function (error: any, response: any, body: any) {
-            if (!error && response.statusCode == 200) {
+        request.get(url, (error: any, response: any, body: any): void => { // tslint:disable-line:no-any
+            if (!error && response.statusCode === 200) {
                 callback!(JSON.parse(body).results);
             }
             if (error) {
@@ -46,4 +47,5 @@ class RandomUser {
     }
 }
 
+// tslint:disable-next-line:export-name
 export = RandomUser;
