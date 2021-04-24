@@ -1,7 +1,7 @@
 // @ts-check
 'use strict';
 
-var RandomUser = require('..').RandomUser
+var RandomUser = require('..')
   , should = require('should')
   , r;
 
