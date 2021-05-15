@@ -1,4 +1,6 @@
 lib/
+temp
+.heft
 
 # Logs
 logs
