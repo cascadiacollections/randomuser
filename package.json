@@ -11,9 +11,9 @@
   ],
   "version": "1.2.0",
   "license": "MIT",
-  "main": "./lib/index",
+  "main": "./lib/index.js",
   "scripts": {
-    "build": "gulp test --clean",
+    "build": "heft build --clean",
     "test": "mocha"
   },
   "dependencies": {
@@ -21,10 +21,18 @@
     "request": "^2.88.2"
   },
   "devDependencies": {
-    "@microsoft/node-library-build": "6.5.23",
-    "@microsoft/rush-stack-compiler-3.9": "0.4.44",
+    "@microsoft/rush-stack-compiler-4.2": "^0.1.0",
+    "@rushstack/eslint-config": "^2.3.4",
+    "@rushstack/heft": "^0.28.3",
+    "@rushstack/heft-node-rig": "^1.0.20",
+    "@rushstack/heft-webpack4-plugin": "^0.1.4",
+    "@types/heft-jest": "1.0.2",
     "@types/node": "14.14.41",
-    "gulp": "~4.0.2",
+    "@types/webpack-env": "1.16.0",
+    "eslint": "^7.24.0",
+    "node-notifier": "8.0.1",
+    "typescript": "4.2.4",
+    "webpack": "^4.44.2",
     "mocha": "^8.3.2",
     "should": "^13.2.3"
   },
