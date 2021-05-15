@@ -7,9 +7,9 @@ A tiny NodeJS client for generating random users. https://randomuser.me
 
 ## Installation
 
-Install using the node.js package manager [npm](https://npmjs.org/):
-
-    $ npm install randomuser
+1. Install dependencies with `yarn`
+1. Build the project with `yarn build`
+1. Run tests with `yarn test`
 
 ## Examples
 
@@ -45,10 +45,6 @@ r.getUsers({ seed: "foxie", results: 5, gender: "male" }, function(data) {
 * `results` - int specifying number of results to return
 * `genders` - string - "male" or "female" specifying gender to generate
 * `seed` - string - service will return same data for given seed
-
-## Testing
-
-    $ npm test
 
 ## Contributing
 
