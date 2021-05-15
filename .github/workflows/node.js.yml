@@ -21,7 +21,13 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: ${{ matrix.node-version }}
-    - run: npm install
-    - run: npm run build
-    - run: npm run test
-    - run: npm pack
+    - run: yarn install
+    - run: yarn build
+    - run: yarn test
+    - run: yarn pack
+    - name: Archive production artifacts
+      uses: actions/upload-artifact@v2
+      with:
+        name: package
+        path: |
+          *.tgz
