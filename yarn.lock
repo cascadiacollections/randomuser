@@ -685,12 +685,12 @@
     "@rushstack/tree-pattern" "0.2.1"
     "@typescript-eslint/experimental-utils" "^3.4.0"
 
-"@rushstack/heft-config-file@0.3.21":
-  version "0.3.21"
-  resolved "https://registry.yarnpkg.com/@rushstack/heft-config-file/-/heft-config-file-0.3.21.tgz#0d7636e905d8af479315d723fc67d60ae233fb73"
-  integrity sha512-2/oldp8Xu4ZZwfTp4k481lFGyyDxN/DMPD7ERjaWUDOTMf+iPsFKAZJAn+Fx6O9ufFMGZEeWsolexjrBV9uiTA==
+"@rushstack/heft-config-file@0.3.22":
+  version "0.3.22"
+  resolved "https://registry.yarnpkg.com/@rushstack/heft-config-file/-/heft-config-file-0.3.22.tgz#a984f72e538fd736a30c6cfcda5dd602fc786466"
+  integrity sha512-yKtc7rTqjblLSh0q93XINqgvMrkIXp4iJd/egU03yAnfAn0Dapq8gq5fIPquiIGyiNFrsxJzkCMn0lO0PzDEKA==
   dependencies:
-    "@rushstack/node-core-library" "3.37.0"
+    "@rushstack/node-core-library" "3.38.0"
     "@rushstack/rig-package" "0.2.12"
     jsonpath-plus "~4.0.0"
 
@@ -704,18 +704,18 @@
     typescript "~3.9.7"
 
 "@rushstack/heft@^0.30.4":
-  version "0.30.4"
-  resolved "https://registry.yarnpkg.com/@rushstack/heft/-/heft-0.30.4.tgz#6922316240bd7bbdcab4234100c22fcadd492df1"
-  integrity sha512-Ug532EHLkmzEaMsnf1shIk1x6Vf8P8qq//m1JHVej7qhULq6U65/j/QbOhbRSo3+BLsRpokIElvGkgQf2j9w2g==
+  version "0.30.7"
+  resolved "https://registry.yarnpkg.com/@rushstack/heft/-/heft-0.30.7.tgz#b88ee5583512b90371d987dbec832190ccd36e05"
+  integrity sha512-Zwd0/XFwmWrpyBdQAfiftlmGQaSGnQm6RTWMSOZahx3wWhkNiaMU/GG1ABmUzAPPT8AoV2Od292Y4q3IRQLSvg==
   dependencies:
     "@jest/core" "~25.4.0"
     "@jest/reporters" "~25.4.0"
     "@jest/transform" "~25.4.0"
-    "@rushstack/heft-config-file" "0.3.21"
-    "@rushstack/node-core-library" "3.37.0"
+    "@rushstack/heft-config-file" "0.3.22"
+    "@rushstack/node-core-library" "3.38.0"
     "@rushstack/rig-package" "0.2.12"
     "@rushstack/ts-command-line" "4.7.10"
-    "@rushstack/typings-generator" "0.3.5"
+    "@rushstack/typings-generator" "0.3.6"
     "@types/tapable" "1.0.6"
     argparse "~1.0.9"
     chokidar "~3.4.0"
@@ -735,6 +735,21 @@
   version "3.37.0"
   resolved "https://registry.yarnpkg.com/@rushstack/node-core-library/-/node-core-library-3.37.0.tgz#6e8ebfdbe2829d380bc827bbb450361fb48e142c"
   integrity sha512-b0OGvl20zfepytLBnKsOtemtiadNZAVolXxaSYssV9VjXaLPF97oLvtLfwc58BX05ufIsrKZgXatnRo8YeffNg==
+  dependencies:
+    "@types/node" "10.17.13"
+    colors "~1.2.1"
+    fs-extra "~7.0.1"
+    import-lazy "~4.0.0"
+    jju "~1.4.0"
+    resolve "~1.17.0"
+    semver "~7.3.0"
+    timsort "~0.3.0"
+    z-schema "~3.18.3"
+
+"@rushstack/node-core-library@3.38.0":
+  version "3.38.0"
+  resolved "https://registry.yarnpkg.com/@rushstack/node-core-library/-/node-core-library-3.38.0.tgz#da1cc87f9ad141b06d4ce7c8eafb09b542c10e75"
+  integrity sha512-cmvl0yQx8sSmbuXwiRYJi8TO+jpTtrLJQ8UmFHhKvgPVJAW8cV8dnpD1Xx/BvTGrJZ2XtRAIkAhBS9okBnap4w==
   dependencies:
     "@types/node" "10.17.13"
     colors "~1.2.1"
@@ -769,12 +784,12 @@
     colors "~1.2.1"
     string-argv "~0.3.1"
 
-"@rushstack/typings-generator@0.3.5":
-  version "0.3.5"
-  resolved "https://registry.yarnpkg.com/@rushstack/typings-generator/-/typings-generator-0.3.5.tgz#02af835cdad15cf71896b69062063c4b3ea9e7dd"
-  integrity sha512-/HGHiN8yuWu05LKaKeYBYxoFXSGBzQzXrzwyiD/l76DnYHMZcDzZ7tem5MqeaOLC+aLKWAkim+4z4ghDNC+7fA==
+"@rushstack/typings-generator@0.3.6":
+  version "0.3.6"
+  resolved "https://registry.yarnpkg.com/@rushstack/typings-generator/-/typings-generator-0.3.6.tgz#c806d4e0c3fe5d62583a0f5c0e5d325f1b70273d"
+  integrity sha512-wAsg/ANeZX1I5re3sYZYX3kKavWL364HUoLrzZ8KKEeDELWPdByzY4kk6I9MyMjdyOxhNadTMypdj/gjfeM/NQ==
   dependencies:
-    "@rushstack/node-core-library" "3.37.0"
+    "@rushstack/node-core-library" "3.38.0"
     "@types/node" "10.17.13"
     chokidar "~3.4.0"
     glob "~7.0.5"
