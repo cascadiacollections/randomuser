@@ -26,7 +26,7 @@
     "@rushstack/eslint-config": "^2.3.4",
     "@rushstack/heft": "^0.30.4",
     "@rushstack/heft-node-rig": "^1.0.20",
-    "@types/node": "16.7.1",
+    "@types/node": "16.7.4",
     "@types/webpack-env": "1.16.2",
     "eslint": "^7.26.0",
     "mocha": "9.1.0",
