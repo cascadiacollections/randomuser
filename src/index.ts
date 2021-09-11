@@ -10,7 +10,7 @@ class RandomUser {
         }
 
         this.options = {
-            baseURL: 'https://api.randomuser.me/'
+            baseURL: 'https://randomuser.me/api/'
         };
     }
 
