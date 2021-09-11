@@ -1,5 +1,6 @@
 import * as request from 'request';
 import * as qs from 'qs';
+import { Result } from './types';
 
 class RandomUser {
     private options: { baseURL: string };
@@ -18,13 +19,13 @@ class RandomUser {
      * Retrieves randomly generated users from API with optional parameters.
      *
      * @param {Object}    params    Optional parameters for user generation API request
-     * @param {Function}    callback    Callback function that will be called when the processing is done.
+     * @param {Function}  callback    Callback function that will be called when the processing is done.
      */
-    public getUsers(params?: any, callback?: (body: any) => void): RandomUser { // tslint:disable-line:no-any
+    public getUsers(params?: unknown, callback?: (body: Result[]) => void): RandomUser {
         let url: string = this.options.baseURL + '?';
 
         if (typeof params === 'function') {
-            callback = params;
+            callback = params as (body: Result[]) => void;
             params = undefined;
         }
 
@@ -34,11 +35,10 @@ class RandomUser {
             url += qs.stringify(params);
         }
 
-        request.get(url, (error: any, response: any, body: any): void => { // tslint:disable-line:no-any
+        request.get(url, (error: string, response: request.Response, body: string): void => {
             if (!error && response.statusCode === 200) {
                 callback!(JSON.parse(body).results);
-            }
-            if (error) {
+            } else if (error) {
                 throw new Error(error);
             }
         });
