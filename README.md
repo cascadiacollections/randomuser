@@ -34,10 +34,6 @@ client.getUsers(data => {
 * `genders` - string - "male" or "female" specifying gender to generate
 * `seed` - string - service will return same data for given seed
 
-## Examples
-
-Demos of the randomuser module are located in: [./examples](https://github.com/cascadiacollections/randomuser/tree/master/examples)
-
 ## Contributing
 
 Feel free to contribute!
