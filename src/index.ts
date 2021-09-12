@@ -1,5 +1,5 @@
 import * as request from 'request';
-import * as qs from 'qs';
+import { URLSearchParams } from 'url';
 import { Result } from './types';
 
 class RandomUser {
@@ -32,7 +32,8 @@ class RandomUser {
         if (typeof callback !== 'function') {
             throw new Error('ERROR: Invalid callback function.');
         } else if (typeof params === 'object') {
-            url += qs.stringify(params);
+            const queryParams = new URLSearchParams(params as any);
+            url += queryParams.toString();
         }
 
         request.get(url, (error: string, response: request.Response, body: string): void => {
