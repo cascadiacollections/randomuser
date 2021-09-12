@@ -2,17 +2,14 @@ import * as request from 'request';
 import { URLSearchParams } from 'url';
 import { Result } from './types';
 
+const BASE_URL: string = 'https://randomuser.me/api/';
+
 class RandomUser {
-    private options: { baseURL: string };
 
     constructor() {
         if (!(this instanceof RandomUser)) {
             return new RandomUser();
         }
-
-        this.options = {
-            baseURL: 'https://randomuser.me/api/'
-        };
     }
 
     /**
@@ -22,7 +19,7 @@ class RandomUser {
      * @param {Function}  callback    Callback function that will be called when the processing is done.
      */
     public getUsers(params?: unknown, callback?: (body: Result[]) => void): RandomUser {
-        let url: string = this.options.baseURL + '?';
+        let url: string = BASE_URL + '?';
 
         if (typeof params === 'function') {
             callback = params as (body: Result[]) => void;
