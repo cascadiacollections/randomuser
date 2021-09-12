@@ -3,7 +3,7 @@
 [![CI](https://github.com/cascadiacollections/randomuser/actions/workflows/node.js.yml/badge.svg)](https://github.com/cascadiacollections/randomuser/actions/workflows/node.js.yml)
 [![npm version](https://img.shields.io/npm/v/randomuser.svg?style=flat-square)](https://www.npmjs.com/package/randomuser)
 
-A tiny NodeJS client for generating random users. https://randomuser.me
+A tiny NodeJS client for generating random users - https://randomuser.me.
 
 ## Installation
 
@@ -11,40 +11,32 @@ A tiny NodeJS client for generating random users. https://randomuser.me
 1. Build the project with `yarn build`
 1. Run tests with `yarn test`
 
-## Examples
+## Getting started
 
-Demos of the randomuser module are located in: [./examples](https://github.com/cascadiacollections/randomuser/tree/master/examples)
+```typescript
+const RandomUser = require('randomuser');
+const client = new RandomUser();
 
-## Usage
-
-### Require Module and Initialize Client
-
-```javascript
-var RandomUser = require('randomuser')
-  , r = new RandomUser();
-```
-
-### .getUsers(callback)
-
-```javascript
-r.getUsers(function(data) {
+// With options
+client.getUsers({ seed: "foxie", results: 5, gender: "male" }, data => {
   console.log(data);
 });
-```
 
-### .getUsers(params, callback)
-
-```javascript
-r.getUsers({ seed: "foxie", results: 5, gender: "male" }, function(data) {
+// Without options
+client.getUsers(data => {
   console.log(data);
 });
 ```
 
 ### params {Object} [Documentation](https://randomuser.me/)
 
-* `results` - int specifying number of results to return
+* `results` - number specifying number of results to return
 * `genders` - string - "male" or "female" specifying gender to generate
 * `seed` - string - service will return same data for given seed
+
+## Examples
+
+Demos of the randomuser module are located in: [./examples](https://github.com/cascadiacollections/randomuser/tree/master/examples)
 
 ## Contributing
 
