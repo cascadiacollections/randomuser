@@ -784,6 +784,15 @@
     "@rushstack/rig-package" "0.3.0"
     jsonpath-plus "~4.0.0"
 
+"@rushstack/heft-config-file@0.6.5":
+  version "0.6.5"
+  resolved "https://registry.yarnpkg.com/@rushstack/heft-config-file/-/heft-config-file-0.6.5.tgz#a7414d1b517f4665d9c031f20e1f2de7d6408560"
+  integrity sha512-96l0Wz89RxPaa01vKQkUaXrmNw3xIgh2sjLtstm2Kh0ywXrHrEocxNyVRx1l330/cxDzSjERDNvFo20y/pnt9g==
+  dependencies:
+    "@rushstack/node-core-library" "3.40.1"
+    "@rushstack/rig-package" "0.3.0"
+    jsonpath-plus "~4.0.0"
+
 "@rushstack/heft-jest-plugin@0.1.26":
   version "0.1.26"
   resolved "https://registry.yarnpkg.com/@rushstack/heft-jest-plugin/-/heft-jest-plugin-0.1.26.tgz#547eb1762c5bd7f3ad1fe6bb342d833d9e1ff9fb"
@@ -808,16 +817,16 @@
     eslint "~7.30.0"
     typescript "~3.9.7"
 
-"@rushstack/heft@0.37.3":
-  version "0.37.3"
-  resolved "https://registry.yarnpkg.com/@rushstack/heft/-/heft-0.37.3.tgz#2d6b6e9744798c400ec0dca23da8af8f51c73823"
-  integrity sha512-BUbr4WbL3maxODyWhbNMqR9bDOipsY65Z9KyjCLMrLKjDiWVG7hw28V54wa1W22wvDXrEsafka1j0661zALWoA==
+"@rushstack/heft@0.37.4":
+  version "0.37.4"
+  resolved "https://registry.yarnpkg.com/@rushstack/heft/-/heft-0.37.4.tgz#eca5d7625aabc2ba0fbb0d71862a4c7ceaff93b7"
+  integrity sha512-KEV4KwOdwK0jXHO3pyErwyabl5BCKxRRMtfuzl94orxCF1P1z5wzCAezWNKchpWKIhm9siQLzPaZrVsz9v10tQ==
   dependencies:
-    "@rushstack/heft-config-file" "0.6.4"
-    "@rushstack/node-core-library" "3.40.0"
+    "@rushstack/heft-config-file" "0.6.5"
+    "@rushstack/node-core-library" "3.40.1"
     "@rushstack/rig-package" "0.3.0"
     "@rushstack/ts-command-line" "4.9.0"
-    "@rushstack/typings-generator" "0.3.9"
+    "@rushstack/typings-generator" "0.3.10"
     "@types/tapable" "1.0.6"
     argparse "~1.0.9"
     chokidar "~3.4.0"
@@ -848,6 +857,21 @@
   version "3.40.0"
   resolved "https://registry.yarnpkg.com/@rushstack/node-core-library/-/node-core-library-3.40.0.tgz#2551915ea34e34ec2abb7172b9d7f4546144d9d4"
   integrity sha512-P6uMPI7cqTdawLSPAG5BQrBu1MHlGRPqecp7ruIRgyukIEzkmh0QAnje4jAL/l1r3hw0qe4e+Dz5ZSnukT/Egg==
+  dependencies:
+    "@types/node" "10.17.13"
+    colors "~1.2.1"
+    fs-extra "~7.0.1"
+    import-lazy "~4.0.0"
+    jju "~1.4.0"
+    resolve "~1.17.0"
+    semver "~7.3.0"
+    timsort "~0.3.0"
+    z-schema "~3.18.3"
+
+"@rushstack/node-core-library@3.40.1":
+  version "3.40.1"
+  resolved "https://registry.yarnpkg.com/@rushstack/node-core-library/-/node-core-library-3.40.1.tgz#e612bdae4e4e6057a38c82ba718b26c8a719e995"
+  integrity sha512-ifqdEcInwyDWvSIadJAnNHkx02N9HJSLqtBITNe5bxlhQkKb7zqspsyop5D7H1LhNHMHniOj6oeusxRdX0FtXQ==
   dependencies:
     "@types/node" "10.17.13"
     colors "~1.2.1"
@@ -900,12 +924,12 @@
     colors "~1.2.1"
     string-argv "~0.3.1"
 
-"@rushstack/typings-generator@0.3.9":
-  version "0.3.9"
-  resolved "https://registry.yarnpkg.com/@rushstack/typings-generator/-/typings-generator-0.3.9.tgz#5ff7d1955ef208545a8175810001675d6e3d20bf"
-  integrity sha512-902W26+kTfrFRpoQdviZwc3mcT33F7uVLfN981elFmn/10VEgXAZgDss+/RH+XamcUIN8GGbI0KRSyU3zStPVg==
+"@rushstack/typings-generator@0.3.10":
+  version "0.3.10"
+  resolved "https://registry.yarnpkg.com/@rushstack/typings-generator/-/typings-generator-0.3.10.tgz#c8b89ca31bdfb1e5b7444d71ebf81789b8f1b9bd"
+  integrity sha512-rODu4So6rlKe4IjdBbiUsCP58NaejTMYiQbxv7ChcKQaEx22J0XX8Qpq5+qbKyONfOzpnWVxeTxFmck3XD2MqQ==
   dependencies:
-    "@rushstack/node-core-library" "3.40.0"
+    "@rushstack/node-core-library" "3.40.1"
     "@types/node" "10.17.13"
     chokidar "~3.4.0"
     glob "~7.0.5"
@@ -1037,11 +1061,6 @@
   version "1.19.1"
   resolved "https://registry.yarnpkg.com/@types/prettier/-/prettier-1.19.1.tgz#33509849f8e679e4add158959fdb086440e9553f"
   integrity sha512-5qOlnZscTn4xxM5MeGXAMOsIOIKIbh9e85zJWfBRVPlRMEVawzoPhINYbRGkBZCI8LxvBe7tJCdWiarA99OZfQ==
-
-"@types/qs@^6.9.7":
-  version "6.9.7"
-  resolved "https://registry.yarnpkg.com/@types/qs/-/qs-6.9.7.tgz#63bb7d067db107cc1e457c303bc25d511febf6cb"
-  integrity sha512-FGa1F62FT09qcrueBA6qYTrJPVDzah9a+493+o2PCXsesWHIn27G98TsSMs3WPNbZIEj4+VJf6saSFpvD+3Zsw==
 
 "@types/request@^2.48.7":
   version "2.48.7"
