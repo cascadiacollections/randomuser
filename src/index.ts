@@ -1,4 +1,4 @@
-import * as request from 'request';
+import * as fetch from 'node-fetch';
 import { URLSearchParams } from 'url';
 import { Result } from './types';
 
@@ -37,13 +37,9 @@ class RandomUser implements _IRandomUser {
             url += queryParams.toString();
         }
 
-        request.get(url, (error: string, response: request.Response, body: string): void => {
-            if (!error && response.statusCode === 200) {
-                callback!(JSON.parse(body).results);
-            } else if (error) {
-                throw new Error(error);
-            }
-        });
+        fetch(url)
+            .then(res => res.json())
+            .then(json => callback!(json.results));
 
         return this;
     }
