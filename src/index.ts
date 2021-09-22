@@ -1,6 +1,6 @@
-import * as fetch from 'node-fetch';
+import fetch from 'node-fetch';
 import { URLSearchParams } from 'url';
-import { Result } from './types';
+import { IRandomUserResponse, Result } from './types';
 
 const BASE_URL: string = 'https://randomuser.me/api/';
 
@@ -38,8 +38,8 @@ class RandomUser implements _IRandomUser {
         }
 
         fetch(url)
-            .then(res => res.json())
-            .then(json => callback!(json.results));
+            .then(res => res.json() as unknown as IRandomUserResponse)
+            .then(json => callback??(json.results));
 
         return this;
     }
