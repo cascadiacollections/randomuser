@@ -18,18 +18,18 @@ class RandomUser {
      * @param {Object}    params    Optional parameters for user generation API request
      * @param {Function}  callback    Callback function that will be called when the processing is done.
      */
-    public getUsers(params?: unknown, callback?: (body: Result[]) => void): RandomUser {
+    public getUsers(params?: Record<string, string | readonly string[]>, callback?: (body: Result[]) => void): RandomUser {
         let url: string = BASE_URL + '?';
 
         if (typeof params === 'function') {
-            callback = params as (body: Result[]) => void;
+            callback = params;
             params = undefined;
         }
 
         if (typeof callback !== 'function') {
             throw new Error('ERROR: Invalid callback function.');
         } else if (typeof params === 'object') {
-            const queryParams = new URLSearchParams(params as any);
+            const queryParams = new URLSearchParams(params);
             url += queryParams.toString();
         }
 
