@@ -4,7 +4,17 @@ import { Result } from './types';
 
 const BASE_URL: string = 'https://randomuser.me/api/';
 
-class RandomUser {
+interface _IRandomUser {
+    /**
+     * Retrieves randomly generated users from API with optional parameters.
+     *
+     * @param {Object}    params    Optional parameters for user generation API request
+     * @param {Function}  callback    Callback function that will be called when the processing is done.
+     */
+    getUsers(params?: Record<string, string | readonly string[]>, callback?: (body: Result[]) => void): RandomUser;
+}
+
+class RandomUser implements _IRandomUser {
 
     constructor() {
         if (!(this instanceof RandomUser)) {
@@ -12,12 +22,6 @@ class RandomUser {
         }
     }
 
-    /**
-     * Retrieves randomly generated users from API with optional parameters.
-     *
-     * @param {Object}    params    Optional parameters for user generation API request
-     * @param {Function}  callback    Callback function that will be called when the processing is done.
-     */
     public getUsers(params?: Record<string, string | readonly string[]>, callback?: (body: Result[]) => void): RandomUser {
         let url: string = BASE_URL + '?';
 
