@@ -24,7 +24,7 @@
     "@microsoft/rush-stack-compiler-4.2": "0.1.1",
     "@rushstack/eslint-config": "2.4.0",
     "@rushstack/heft": "0.38.2",
-    "@rushstack/heft-node-rig": "1.2.13",
+    "@rushstack/heft-node-rig": "1.2.14",
     "@types/node": "^16.9.6",
     "@types/request": "^2.48.7",
     "@types/webpack-env": "1.16.2",
