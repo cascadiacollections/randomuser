@@ -784,10 +784,10 @@
     "@rushstack/rig-package" "0.3.0"
     jsonpath-plus "~4.0.0"
 
-"@rushstack/heft-jest-plugin@0.1.29":
-  version "0.1.29"
-  resolved "https://registry.npmjs.org/@rushstack/heft-jest-plugin/-/heft-jest-plugin-0.1.29.tgz"
-  integrity sha512-5gURFujqSukHM04LOgZZCjxJ8Wnvr86//LfmSkepbXt1Pqko4JcdTqMFLdfhYKT0486FTiqcnoCSenz5u4rZYQ==
+"@rushstack/heft-jest-plugin@0.1.30":
+  version "0.1.30"
+  resolved "https://registry.yarnpkg.com/@rushstack/heft-jest-plugin/-/heft-jest-plugin-0.1.30.tgz#d39372c14d2d52833366f9781e2204c8864c5bb8"
+  integrity sha512-q+rOvX/OwdZTL/lK1bNgp3tY+pHbpEBZxLPFH5ETA/2oAHIK2iiVwzr4/CvAxpaKudCxNTbHB/R4l36uFtyNig==
   dependencies:
     "@jest/core" "~25.4.0"
     "@jest/reporters" "~25.4.0"
@@ -798,13 +798,13 @@
     jest-snapshot "~25.4.0"
     lodash "~4.17.15"
 
-"@rushstack/heft-node-rig@1.2.13":
-  version "1.2.13"
-  resolved "https://registry.npmjs.org/@rushstack/heft-node-rig/-/heft-node-rig-1.2.13.tgz"
-  integrity sha512-nBe+Zk2kZ/+szNxlEX/74mIY6F+7MQ0UgBhnOPoKAgqw2TpRZ8kGlwmVyitWFH8f46/AznmGg5adt91FAdz4+w==
+"@rushstack/heft-node-rig@1.2.14":
+  version "1.2.14"
+  resolved "https://registry.yarnpkg.com/@rushstack/heft-node-rig/-/heft-node-rig-1.2.14.tgz#047a4522ef10730f1d3264788130cbc66e8b2f0c"
+  integrity sha512-elyeSUVH01Vw+4vk/GF5gshPnlCMA4GpqVkQAKiXS8aUMQVeKchbjxdMuXQTa6duExaGGc+FVbyzWjUiVHxvjg==
   dependencies:
     "@microsoft/api-extractor" "7.18.9"
-    "@rushstack/heft-jest-plugin" "0.1.29"
+    "@rushstack/heft-jest-plugin" "0.1.30"
     eslint "~7.30.0"
     typescript "~3.9.7"
 
