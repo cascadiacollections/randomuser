@@ -808,10 +808,10 @@
     eslint "~7.30.0"
     typescript "~3.9.7"
 
-"@rushstack/heft@0.38.1":
-  version "0.38.1"
-  resolved "https://registry.npmjs.org/@rushstack/heft/-/heft-0.38.1.tgz"
-  integrity sha512-fVG1REjEvvuVR0C9Rd0eBXHZNUELakHm0U15q3ZhQSpIvL1UYtQ46+6VSSKoWGjy+FpP1HHl/GiUyyMLTQKJAQ==
+"@rushstack/heft@0.38.2":
+  version "0.38.2"
+  resolved "https://registry.yarnpkg.com/@rushstack/heft/-/heft-0.38.2.tgz#22d8b1fc096838e6c0e1bccc70da56e72177e1b6"
+  integrity sha512-6klC0pZl/2ism9JpJ6+Is4XjuSOY0xWTcMHpnERQWp6BIg2FTiLDu0QVD+6h1MohFfRulivRtlNMIEtOArmbgw==
   dependencies:
     "@rushstack/heft-config-file" "0.6.6"
     "@rushstack/node-core-library" "3.40.2"
@@ -1018,7 +1018,7 @@
   resolved "https://registry.npmjs.org/@types/json-schema/-/json-schema-7.0.9.tgz"
   integrity sha512-qcUXuemtEu+E5wZSJHNxUXeCZhAfXKQ41D+duX+VYPde7xyEVZci+/oXKJL13tnRs9lR2pr4fod59GT6/X1/yQ==
 
-"@types/node@*":
+"@types/node@*", "@types/node@^16.9.6":
   version "16.9.6"
   resolved "https://registry.npmjs.org/@types/node/-/node-16.9.6.tgz"
   integrity sha512-YHUZhBOMTM3mjFkXVcK+WwAcYmyhe1wL4lfqNtzI0b3qAy7yuSetnM7QJazgE5PFmgVTNGiLOgRFfJMqW7XpSQ==
@@ -1027,11 +1027,6 @@
   version "10.17.13"
   resolved "https://registry.npmjs.org/@types/node/-/node-10.17.13.tgz"
   integrity sha512-pMCcqU2zT4TjqYFrWtYHKal7Sl30Ims6ulZ4UFXxI4xbtQqK/qqKwkDoBFCfooRqqmRu9vY3xaJRwxSh673aYg==
-
-"@types/node@^16.9.6":
-  version "16.9.6"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-16.9.6.tgz#040a64d7faf9e5d9e940357125f0963012e66f04"
-  integrity sha512-YHUZhBOMTM3mjFkXVcK+WwAcYmyhe1wL4lfqNtzI0b3qAy7yuSetnM7QJazgE5PFmgVTNGiLOgRFfJMqW7XpSQ==
 
 "@types/normalize-package-data@^2.4.0":
   version "2.4.1"
