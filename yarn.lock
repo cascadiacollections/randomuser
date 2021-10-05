@@ -585,6 +585,15 @@
     "@types/yargs" "^15.0.0"
     chalk "^3.0.0"
 
+"@microsoft/api-extractor-model@7.13.10":
+  version "7.13.10"
+  resolved "https://registry.yarnpkg.com/@microsoft/api-extractor-model/-/api-extractor-model-7.13.10.tgz#cd71ab4fcc14d714c9e51e633b2d032e8baf127d"
+  integrity sha512-vJj8IFtqDOiBMbZraZQxW0jMCaZuBq1R/Y3Maavp2AnFBJSDnT2sclkzsAqyggfEDLLO/ti0AUmJtXFoU8tq8Q==
+  dependencies:
+    "@microsoft/tsdoc" "0.13.2"
+    "@microsoft/tsdoc-config" "~0.15.2"
+    "@rushstack/node-core-library" "3.42.0"
+
 "@microsoft/api-extractor-model@7.13.2":
   version "7.13.2"
   resolved "https://registry.npmjs.org/@microsoft/api-extractor-model/-/api-extractor-model-7.13.2.tgz"
@@ -593,15 +602,6 @@
     "@microsoft/tsdoc" "0.13.2"
     "@microsoft/tsdoc-config" "~0.15.2"
     "@rushstack/node-core-library" "3.38.0"
-
-"@microsoft/api-extractor-model@7.13.9":
-  version "7.13.9"
-  resolved "https://registry.yarnpkg.com/@microsoft/api-extractor-model/-/api-extractor-model-7.13.9.tgz#018fb37ac0147595832e13db17509f6adafbad9c"
-  integrity sha512-t/XKTr8MlHRWgDr1fkyCzTQRR5XICf/WzIFs8yw1JLU8Olw99M3by4/dtpOZNskfqoW+J8NwOxovduU2csi4Ww==
-  dependencies:
-    "@microsoft/tsdoc" "0.13.2"
-    "@microsoft/tsdoc-config" "~0.15.2"
-    "@rushstack/node-core-library" "3.41.0"
 
 "@microsoft/api-extractor@7.15.2":
   version "7.15.2"
@@ -621,17 +621,17 @@
     source-map "~0.6.1"
     typescript "~4.2.4"
 
-"@microsoft/api-extractor@7.18.11":
-  version "7.18.11"
-  resolved "https://registry.yarnpkg.com/@microsoft/api-extractor/-/api-extractor-7.18.11.tgz#24910c2432362b09900b493a0713919b662cdb0f"
-  integrity sha512-WfN5MZry4TrF60OOcGadFDsGECF9JNKNT+8P/8crYAumAYQRitI2cUiQRlCWrgmFgCWNezsNZeI/2BggdnUqcg==
+"@microsoft/api-extractor@7.18.13":
+  version "7.18.13"
+  resolved "https://registry.yarnpkg.com/@microsoft/api-extractor/-/api-extractor-7.18.13.tgz#3c69caa93ecb21411e2cb31898a2d7151472ac68"
+  integrity sha512-L2iGuCnEp63wpbaqxWkqyLbKVXPKSV/YrHU4ox+36G6EtInYaQf5lgZPY5UdUKDYZd2NPrWJLCoO/Q8haDBaGQ==
   dependencies:
-    "@microsoft/api-extractor-model" "7.13.9"
+    "@microsoft/api-extractor-model" "7.13.10"
     "@microsoft/tsdoc" "0.13.2"
     "@microsoft/tsdoc-config" "~0.15.2"
-    "@rushstack/node-core-library" "3.41.0"
+    "@rushstack/node-core-library" "3.42.0"
     "@rushstack/rig-package" "0.3.1"
-    "@rushstack/ts-command-line" "4.9.1"
+    "@rushstack/ts-command-line" "4.10.0"
     colors "~1.2.1"
     lodash "~4.17.15"
     resolve "~1.17.0"
@@ -780,49 +780,49 @@
     "@rushstack/tree-pattern" "0.2.1"
     "@typescript-eslint/experimental-utils" "~4.28.2"
 
-"@rushstack/heft-config-file@0.6.8":
-  version "0.6.8"
-  resolved "https://registry.yarnpkg.com/@rushstack/heft-config-file/-/heft-config-file-0.6.8.tgz#8dd7780571c093ac680d4f0ec75694e453e94117"
-  integrity sha512-ND0HaEDLDipm3jEyot0ZbXYtpYXpW1tYSlHJ8FJn5i6aWIRWnuziRxdBjpxewO+Bjvb6Ge+JHZJITtyQiBCRkQ==
+"@rushstack/heft-config-file@0.7.0":
+  version "0.7.0"
+  resolved "https://registry.yarnpkg.com/@rushstack/heft-config-file/-/heft-config-file-0.7.0.tgz#03e7c550fbc7539e6c6630557a9b4e3fcf48f060"
+  integrity sha512-a2jSFVdiCE7ksjiAZr38uhl2zOVdmXYNGD5VdyRA88YgHCHRxD0B5dn3FpX0zq3+jkGpp8GaJVonOIOyAKSubg==
   dependencies:
-    "@rushstack/node-core-library" "3.41.0"
+    "@rushstack/node-core-library" "3.42.0"
     "@rushstack/rig-package" "0.3.1"
     jsonpath-plus "~4.0.0"
 
-"@rushstack/heft-jest-plugin@0.1.33":
-  version "0.1.33"
-  resolved "https://registry.yarnpkg.com/@rushstack/heft-jest-plugin/-/heft-jest-plugin-0.1.33.tgz#368ef0a15cced035574789248c8ddd5cf6c0da0b"
-  integrity sha512-YxO/TXaV6MkA/3UOlPQUQlZqFN/Wma8r5ssMHsPdF7bUvOx51dIUJDcMU+ZSNfcT4jH7tvYuCHcSRFOABFiJ3Q==
+"@rushstack/heft-jest-plugin@0.1.35":
+  version "0.1.35"
+  resolved "https://registry.yarnpkg.com/@rushstack/heft-jest-plugin/-/heft-jest-plugin-0.1.35.tgz#a765b5cd80b47ddcec8346e2dd9a7f5306b82fc1"
+  integrity sha512-y0bsXYdxxmJvcFVWgqAIZkMVu2AwJlkafAZ+Rlm0W9IGYBlVZbdVicf88tjHcnp39HapT2aJtUj5EjogWIjdsA==
   dependencies:
     "@jest/core" "~25.4.0"
     "@jest/reporters" "~25.4.0"
     "@jest/transform" "~25.4.0"
-    "@rushstack/heft-config-file" "0.6.8"
-    "@rushstack/node-core-library" "3.41.0"
+    "@rushstack/heft-config-file" "0.7.0"
+    "@rushstack/node-core-library" "3.42.0"
     jest-config "~25.4.0"
     jest-snapshot "~25.4.0"
     lodash "~4.17.15"
 
-"@rushstack/heft-node-rig@1.2.17":
-  version "1.2.17"
-  resolved "https://registry.yarnpkg.com/@rushstack/heft-node-rig/-/heft-node-rig-1.2.17.tgz#027bba8228b89a226ca6b411f5ff753dfc4197b0"
-  integrity sha512-D5jRd/Ucwx4pba1smkAidzHusLzWML1GpG4FmLEy7k8tH7ViKDZcGVomsLu5sL136fjmIeELWqNkey82QBEKjQ==
+"@rushstack/heft-node-rig@1.2.19":
+  version "1.2.19"
+  resolved "https://registry.yarnpkg.com/@rushstack/heft-node-rig/-/heft-node-rig-1.2.19.tgz#79cb35f732ed9b403b221e6d2143ac05e1cca2bc"
+  integrity sha512-iLgeCDkv4RQgtwimLGewSwf42FtTX3hyiaODZj9coJ14BnLHZ4PCXotfoYJjckxEUl0ekkHU9LL27PbgNti1Pg==
   dependencies:
-    "@microsoft/api-extractor" "7.18.11"
-    "@rushstack/heft-jest-plugin" "0.1.33"
+    "@microsoft/api-extractor" "7.18.13"
+    "@rushstack/heft-jest-plugin" "0.1.35"
     eslint "~7.30.0"
     typescript "~4.4.2"
 
-"@rushstack/heft@0.39.2":
-  version "0.39.2"
-  resolved "https://registry.yarnpkg.com/@rushstack/heft/-/heft-0.39.2.tgz#1128e11cecc10cd8c4a6a3f93f7b3d0011b2679c"
-  integrity sha512-WXIOzEscSR2yIPXe7/kJy3RmarObBVtur4t4nt33gUhykTWIp/R8GxFEn43zD/f34x8lzaxvsK/kxx8pze8hCA==
+"@rushstack/heft@0.41.0":
+  version "0.41.0"
+  resolved "https://registry.yarnpkg.com/@rushstack/heft/-/heft-0.41.0.tgz#47a553e826399d3cb6b93fba0366fa4197b1fa58"
+  integrity sha512-Dl95abkzKgKRT2GD1OWPrU/HAmd/YOWy3eeE58RaaRr9MnwB+KIEHY7XbvdRMvj5pwqw3unSCef8S7hb30/mOg==
   dependencies:
-    "@rushstack/heft-config-file" "0.6.8"
-    "@rushstack/node-core-library" "3.41.0"
+    "@rushstack/heft-config-file" "0.7.0"
+    "@rushstack/node-core-library" "3.42.0"
     "@rushstack/rig-package" "0.3.1"
-    "@rushstack/ts-command-line" "4.9.1"
-    "@rushstack/typings-generator" "0.3.13"
+    "@rushstack/ts-command-line" "4.10.0"
+    "@rushstack/typings-generator" "0.4.0"
     "@types/tapable" "1.0.6"
     argparse "~1.0.9"
     chokidar "~3.4.0"
@@ -849,10 +849,10 @@
     timsort "~0.3.0"
     z-schema "~3.18.3"
 
-"@rushstack/node-core-library@3.41.0":
-  version "3.41.0"
-  resolved "https://registry.yarnpkg.com/@rushstack/node-core-library/-/node-core-library-3.41.0.tgz#36f79ecf1a3c9b417690d95bbfcdf40390bf5f51"
-  integrity sha512-JxdmqR+SHU04jTDaZhltMZL3/XTz2ZZM47DTN+FSPUGUVp6WmxLlvJnT5FoHrOZWUjL/FoIlZUdUPTSXjTjIcg==
+"@rushstack/node-core-library@3.42.0":
+  version "3.42.0"
+  resolved "https://registry.yarnpkg.com/@rushstack/node-core-library/-/node-core-library-3.42.0.tgz#8961eee5382b26f148169bf16fc28c2d831fa74e"
+  integrity sha512-oB4eIGjBfNtGxlNbwV8H7oEUWeRKalJUT3TqccZW+k4GC6SrQzmC/mvgRZi4eW3FwNGgTvZAACIQy7x50+j7pw==
   dependencies:
     "@types/node" "12.20.24"
     colors "~1.2.1"
@@ -885,6 +885,16 @@
   resolved "https://registry.npmjs.org/@rushstack/tree-pattern/-/tree-pattern-0.2.1.tgz"
   integrity sha512-ZRPQdV0LxUY/HRIvVKNz3Sb/qbklSthL2pY0qkNoycXKcXbCgXEP3TxL+i1/tW9g1jqft4o+pl9wx12Q6Uc0Xw==
 
+"@rushstack/ts-command-line@4.10.0":
+  version "4.10.0"
+  resolved "https://registry.yarnpkg.com/@rushstack/ts-command-line/-/ts-command-line-4.10.0.tgz#6ddc939bb16410078379956dd97c14020b71b236"
+  integrity sha512-BRF7O4XQKmrZz8GZ6b/+0+4elrnY2kjZsLrUOJ1dwJZxAR0I1+G0/GD66RVPi0ku1qN4A6t+HrB5p2Nxc9ECrA==
+  dependencies:
+    "@types/argparse" "1.0.38"
+    argparse "~1.0.9"
+    colors "~1.2.1"
+    string-argv "~0.3.1"
+
 "@rushstack/ts-command-line@4.7.10":
   version "4.7.10"
   resolved "https://registry.npmjs.org/@rushstack/ts-command-line/-/ts-command-line-4.7.10.tgz"
@@ -895,22 +905,12 @@
     colors "~1.2.1"
     string-argv "~0.3.1"
 
-"@rushstack/ts-command-line@4.9.1":
-  version "4.9.1"
-  resolved "https://registry.yarnpkg.com/@rushstack/ts-command-line/-/ts-command-line-4.9.1.tgz#9fe594a408c7ef1b67f57b41ba931ecd3f420e92"
-  integrity sha512-zzoWB6OqVbMjnxlxbAUqbZqDWITUSHqwFCx7JbH5CVrjR9kcsB4NeWkN1I8GcR92beiOGvO3yPlB2NRo5Ugh+A==
+"@rushstack/typings-generator@0.4.0":
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/@rushstack/typings-generator/-/typings-generator-0.4.0.tgz#5d88612d650c9adf7f441627b5e1507a132b6bb5"
+  integrity sha512-6sIjMAR5RBYwhTMjdjdaBaEc8xcRQHABJcwgti51nmmSuMlNkKvE/snV+PpnIcfj60fnI9q6w192YTqNItZ+jA==
   dependencies:
-    "@types/argparse" "1.0.38"
-    argparse "~1.0.9"
-    colors "~1.2.1"
-    string-argv "~0.3.1"
-
-"@rushstack/typings-generator@0.3.13":
-  version "0.3.13"
-  resolved "https://registry.yarnpkg.com/@rushstack/typings-generator/-/typings-generator-0.3.13.tgz#3778512e4210f1926d1ebc4027bd21dbba9fa906"
-  integrity sha512-TKYg/G4z+fm4B0RKwUbvwKY2M29mJ7Yx+GWUDcN/4Av/R6AEyPbImUYpaKcXRzbeVKCUuF2OblH1/jQI96XpHA==
-  dependencies:
-    "@rushstack/node-core-library" "3.41.0"
+    "@rushstack/node-core-library" "3.42.0"
     "@types/node" "12.20.24"
     chokidar "~3.4.0"
     glob "~7.0.5"
