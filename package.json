@@ -23,8 +23,8 @@
   "devDependencies": {
     "@microsoft/rush-stack-compiler-4.2": "0.1.1",
     "@rushstack/eslint-config": "2.4.1",
-    "@rushstack/heft": "0.39.2",
-    "@rushstack/heft-node-rig": "1.2.17",
+    "@rushstack/heft": "0.41.2",
+    "@rushstack/heft-node-rig": "1.2.21",
     "@types/node": "^16.9.6",
     "@types/request": "^2.48.7",
     "@types/webpack-env": "1.16.2",
