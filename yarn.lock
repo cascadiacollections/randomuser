@@ -705,15 +705,15 @@
     eslint-plugin-react "~7.20.0"
     eslint-plugin-tsdoc "~0.2.10"
 
-"@rushstack/eslint-config@2.4.2":
-  version "2.4.2"
-  resolved "https://registry.yarnpkg.com/@rushstack/eslint-config/-/eslint-config-2.4.2.tgz#622c88488c049afea9cf83a626478d5e013921e8"
-  integrity sha512-dMVcWAOcLGC4TgOM2bxglpfaYvQjfoupQiTUA+wJMvKtBs7nrclMMqR8ZOEg6flycrFC7s3UcB6FOiaxmryjmQ==
+"@rushstack/eslint-config@2.4.5":
+  version "2.4.5"
+  resolved "https://registry.yarnpkg.com/@rushstack/eslint-config/-/eslint-config-2.4.5.tgz#a21c908d710f6987e649b8b7eb19940cdde33995"
+  integrity sha512-MilTlXhJMvJhsud/Sb+otph/JTLuoUQYO/MK6SCiGsoCWlIOgbw+JKUjs4viu6Kocd0VqfbNCXFqWRqCbdq4DA==
   dependencies:
-    "@rushstack/eslint-patch" "1.0.7"
-    "@rushstack/eslint-plugin" "0.8.2"
-    "@rushstack/eslint-plugin-packlets" "0.3.2"
-    "@rushstack/eslint-plugin-security" "0.2.2"
+    "@rushstack/eslint-patch" "1.1.0"
+    "@rushstack/eslint-plugin" "0.8.3"
+    "@rushstack/eslint-plugin-packlets" "0.3.3"
+    "@rushstack/eslint-plugin-security" "0.2.3"
     "@typescript-eslint/eslint-plugin" "~4.31.2"
     "@typescript-eslint/experimental-utils" "~4.31.2"
     "@typescript-eslint/parser" "~4.31.2"
@@ -727,10 +727,10 @@
   resolved "https://registry.npmjs.org/@rushstack/eslint-patch/-/eslint-patch-1.0.6.tgz"
   integrity sha512-Myxw//kzromB9yWgS8qYGuGVf91oBUUJpNvy5eM50sqvmKLbKjwLxohJnkWGTeeI9v9IBMtPLxz5Gc60FIfvCA==
 
-"@rushstack/eslint-patch@1.0.7":
-  version "1.0.7"
-  resolved "https://registry.yarnpkg.com/@rushstack/eslint-patch/-/eslint-patch-1.0.7.tgz#82f83dcc2eb9b1e1d559b3aca96783e285eb8592"
-  integrity sha512-3Zi2LGbCLDz4IIL7ir6wD0u/ggHotLkK5SlVzFzTcYaNgPR4MAt/9JYZqXWKcofPWEoptfpnCJU8Bq9sxw8QUg==
+"@rushstack/eslint-patch@1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@rushstack/eslint-patch/-/eslint-patch-1.1.0.tgz#7f698254aadf921e48dda8c0a6b304026b8a9323"
+  integrity sha512-JLo+Y592QzIE+q7Dl2pMUtt4q8SKYI5jDrZxrozEQxnGVOyYE+GWK9eLkwTaeN9DDctlaRAQ3TBmzZ1qdLE30A==
 
 "@rushstack/eslint-plugin-packlets@0.2.2":
   version "0.2.2"
@@ -740,12 +740,12 @@
     "@rushstack/tree-pattern" "0.2.1"
     "@typescript-eslint/experimental-utils" "^3.4.0"
 
-"@rushstack/eslint-plugin-packlets@0.3.2":
-  version "0.3.2"
-  resolved "https://registry.yarnpkg.com/@rushstack/eslint-plugin-packlets/-/eslint-plugin-packlets-0.3.2.tgz#b7a4ecfb375fa14b6d6cc5803f5f322df13ed3d1"
-  integrity sha512-lWWg9OlGCg4OpHCs0K70s7BligasnrPOE3s7+ireDucju6/T36BtNOzP+u0o3IVznXzcuQxHxtfcIAoyC6gU7w==
+"@rushstack/eslint-plugin-packlets@0.3.3":
+  version "0.3.3"
+  resolved "https://registry.yarnpkg.com/@rushstack/eslint-plugin-packlets/-/eslint-plugin-packlets-0.3.3.tgz#4c452ad60f9b141f6c0075a3ae7b74a94b2ba8d0"
+  integrity sha512-6fslCsfk1mZho4uBsnywCO5Jzj7I21V1OKt40ZxbLO7LrMccm9orUYJiy5dI3Lx6NQtczuYrtqp8Xqp0ur9KPA==
   dependencies:
-    "@rushstack/tree-pattern" "0.2.1"
+    "@rushstack/tree-pattern" "0.2.2"
     "@typescript-eslint/experimental-utils" "~4.31.2"
 
 "@rushstack/eslint-plugin-security@0.1.4":
@@ -756,12 +756,12 @@
     "@rushstack/tree-pattern" "0.2.1"
     "@typescript-eslint/experimental-utils" "^3.4.0"
 
-"@rushstack/eslint-plugin-security@0.2.2":
-  version "0.2.2"
-  resolved "https://registry.yarnpkg.com/@rushstack/eslint-plugin-security/-/eslint-plugin-security-0.2.2.tgz#24c7326ca402d56b8eab24bd175c199786fdade7"
-  integrity sha512-+d6qcMde6JPWmKmr6Y6CQmEAlgCKPslHRLy2jCa0VbrQMNk3XQnRrgho9QVMSjoKIgEXyQoRaQ1VRIjGxVCe+w==
+"@rushstack/eslint-plugin-security@0.2.3":
+  version "0.2.3"
+  resolved "https://registry.yarnpkg.com/@rushstack/eslint-plugin-security/-/eslint-plugin-security-0.2.3.tgz#bdaf4d0d3a803a370d834b1e7f25061f1a150097"
+  integrity sha512-OnngkJCx91og1U8a8gus2g+r5OOtkQ8Tpo8jcGrtI6YpIIujqLM6lIe7XM3e+iumYdKnnOAVs3NH14BN9rlIoQ==
   dependencies:
-    "@rushstack/tree-pattern" "0.2.1"
+    "@rushstack/tree-pattern" "0.2.2"
     "@typescript-eslint/experimental-utils" "~4.31.2"
 
 "@rushstack/eslint-plugin@0.7.3":
@@ -772,12 +772,12 @@
     "@rushstack/tree-pattern" "0.2.1"
     "@typescript-eslint/experimental-utils" "^3.4.0"
 
-"@rushstack/eslint-plugin@0.8.2":
-  version "0.8.2"
-  resolved "https://registry.yarnpkg.com/@rushstack/eslint-plugin/-/eslint-plugin-0.8.2.tgz#30393261484e5bccae12063fa39056e901b48a99"
-  integrity sha512-oAUdBEyRM7xSzZAre3+dUC5jgFYjusuQTH87/PN/thiUQEu+0rzrI7sgJXg+C92+tgmp87xPfiMQmiKxUwBJZg==
+"@rushstack/eslint-plugin@0.8.3":
+  version "0.8.3"
+  resolved "https://registry.yarnpkg.com/@rushstack/eslint-plugin/-/eslint-plugin-0.8.3.tgz#416cecfcbd27c085681bab1ad15fab6a90b00f11"
+  integrity sha512-LUXUv9oUDHghe73HHIqDxJAqCYBsvKcbg+2KRs/aNczNZzoaXKJPLS6YvlCBiuI1XNq/eLEX7L/LPnKfbe+1Yw==
   dependencies:
-    "@rushstack/tree-pattern" "0.2.1"
+    "@rushstack/tree-pattern" "0.2.2"
     "@typescript-eslint/experimental-utils" "~4.31.2"
 
 "@rushstack/heft-config-file@0.7.2":
@@ -916,6 +916,11 @@
   version "0.2.1"
   resolved "https://registry.npmjs.org/@rushstack/tree-pattern/-/tree-pattern-0.2.1.tgz"
   integrity sha512-ZRPQdV0LxUY/HRIvVKNz3Sb/qbklSthL2pY0qkNoycXKcXbCgXEP3TxL+i1/tW9g1jqft4o+pl9wx12Q6Uc0Xw==
+
+"@rushstack/tree-pattern@0.2.2":
+  version "0.2.2"
+  resolved "https://registry.yarnpkg.com/@rushstack/tree-pattern/-/tree-pattern-0.2.2.tgz#5b2a028347264e7f1413f5aa8c3fc36b56960194"
+  integrity sha512-0KdqI7hGtVIlxobOBLWet0WGiD70V/QoYQr5A2ikACeQmIaN4WT6Fn9BcvgwgaSIMcazEcD8ql7Fb9N4dKdQlA==
 
 "@rushstack/ts-command-line@4.10.1":
   version "4.10.1"
@@ -1066,9 +1071,9 @@
   integrity sha512-qcUXuemtEu+E5wZSJHNxUXeCZhAfXKQ41D+duX+VYPde7xyEVZci+/oXKJL13tnRs9lR2pr4fod59GT6/X1/yQ==
 
 "@types/node@*", "@types/node@^16.9.6":
-  version "16.11.1"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-16.11.1.tgz#2e50a649a50fc403433a14f829eface1a3443e97"
-  integrity sha512-PYGcJHL9mwl1Ek3PLiYgyEKtwTMmkMw4vbiyz/ps3pfdRYLVv+SN7qHVAImrjdAXxgluDEw6Ph4lyv+m9UpRmA==
+  version "16.11.8"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-16.11.8.tgz#a1aeb23f0aa33cb111e64ccaa1687b2ae0423b69"
+  integrity sha512-hmT5gfpRkkHr7DZZHMf3jBe/zNcVGN+jXSL2f8nAsYfBPxQFToKwQlS/zES4Sjp488Bi73i+p6bvrNRRGU0x9Q==
 
 "@types/node@10.17.13":
   version "10.17.13"
@@ -5686,15 +5691,20 @@ typedarray-to-buffer@^3.1.5:
   dependencies:
     is-typedarray "^1.0.0"
 
-typescript@4.4.4, typescript@~4.4.2:
-  version "4.4.4"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.4.4.tgz#2cd01a1a1f160704d3101fd5a58ff0f9fcb8030c"
-  integrity sha512-DqGhF5IKoBl8WNf8C1gu8q0xZSInh9j1kJJMqT3a94w1JzVaBU4EXOSMrz9yDqMT0xt3selp83fuFMQ0uzv6qA==
+typescript@4.5.2:
+  version "4.5.2"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.5.2.tgz#8ac1fba9f52256fdb06fb89e4122fa6a346c2998"
+  integrity sha512-5BlMof9H1yGt0P8/WF+wPNw6GfctgGjXp5hkblpyT+8rkASSmkUKMXrxR0Xg8ThVCi/JnHQiKXeBaEwCeQwMFw==
 
 typescript@~4.2.4:
   version "4.2.4"
   resolved "https://registry.npmjs.org/typescript/-/typescript-4.2.4.tgz"
   integrity sha512-V+evlYHZnQkaz8TRBuxTA92yZBPotr5H+WhQ7bD3hZUndx5tGOa1fuCgeSjxAzM1RiN5IzvadIXTVefuuwZCRg==
+
+typescript@~4.4.2:
+  version "4.4.4"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.4.4.tgz#2cd01a1a1f160704d3101fd5a58ff0f9fcb8030c"
+  integrity sha512-DqGhF5IKoBl8WNf8C1gu8q0xZSInh9j1kJJMqT3a94w1JzVaBU4EXOSMrz9yDqMT0xt3selp83fuFMQ0uzv6qA==
 
 unbox-primitive@^1.0.1:
   version "1.0.1"
@@ -5833,15 +5843,15 @@ webidl-conversions@^4.0.2:
   resolved "https://registry.npmjs.org/webidl-conversions/-/webidl-conversions-4.0.2.tgz"
   integrity sha512-YQ+BmxuTgd6UXZW3+ICGfyqRyHXVlD5GtQr5+qjiNW7bF0cqrzX500HVXPBOvgXb5YnzDd+h0zqyv61KUD7+Sg==
 
-webpack-sources@^3.2.0:
-  version "3.2.1"
-  resolved "https://registry.npmjs.org/webpack-sources/-/webpack-sources-3.2.1.tgz"
-  integrity sha512-t6BMVLQ0AkjBOoRTZgqrWm7xbXMBzD+XDq2EZ96+vMfn3qKgsvdXZhbPZ4ElUOpdv4u+iiGe+w3+J75iy/bYGA==
+webpack-sources@^3.2.2:
+  version "3.2.2"
+  resolved "https://registry.yarnpkg.com/webpack-sources/-/webpack-sources-3.2.2.tgz#d88e3741833efec57c4c789b6010db9977545260"
+  integrity sha512-cp5qdmHnu5T8wRg2G3vZZHoJPN14aqQ89SyQ11NpGH5zEMDCclt49rzo+MaRazk7/UeILhAI+/sEtcM+7Fr0nw==
 
 webpack@^5.48.0:
-  version "5.59.0"
-  resolved "https://registry.yarnpkg.com/webpack/-/webpack-5.59.0.tgz#a5038fc0d4d9350ee528e7e1e0282080c63efcf5"
-  integrity sha512-2HiFHKnWIb/cBfOfgssQn8XIRvntISXiz//F1q1+hKMs+uzC1zlVCJZEP7XqI1wzrDyc/ZdB4G+MYtz5biJxCA==
+  version "5.64.1"
+  resolved "https://registry.yarnpkg.com/webpack/-/webpack-5.64.1.tgz#fd59840c16f04fe315f2b2598a85026f12dfa1bb"
+  integrity sha512-b4FHmRgaaAjP+aVOVz41a9Qa5SmkUPQ+u8FntTQ1roPHahSComB6rXnLwc976VhUY4CqTaLu5mCswuHiNhOfVw==
   dependencies:
     "@types/eslint-scope" "^3.7.0"
     "@types/estree" "^0.0.50"
@@ -5866,7 +5876,7 @@ webpack@^5.48.0:
     tapable "^2.1.1"
     terser-webpack-plugin "^5.1.3"
     watchpack "^2.2.0"
-    webpack-sources "^3.2.0"
+    webpack-sources "^3.2.2"
 
 whatwg-encoding@^1.0.1, whatwg-encoding@^1.0.5:
   version "1.0.5"
