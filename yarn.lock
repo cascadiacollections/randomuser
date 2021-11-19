@@ -789,13 +789,13 @@
     "@rushstack/rig-package" "0.3.2"
     jsonpath-plus "~4.0.0"
 
-"@rushstack/heft-config-file@0.7.3":
-  version "0.7.3"
-  resolved "https://registry.yarnpkg.com/@rushstack/heft-config-file/-/heft-config-file-0.7.3.tgz#ce0dcb1578cce0a6a8bb0725798b3e483f0f0849"
-  integrity sha512-ULAZljY6ltIfeA/rzrqzhmtj1nTttf+SeDdhzlFvu5kbRRpQ488rjabZj0libT5TFC51xkk99bF6sjl0PHtcWg==
+"@rushstack/heft-config-file@0.7.4":
+  version "0.7.4"
+  resolved "https://registry.yarnpkg.com/@rushstack/heft-config-file/-/heft-config-file-0.7.4.tgz#ac84ebd9536ebfb173304132851da4538b51affa"
+  integrity sha512-XhTK2ptYiD2l/A1AivR+OLKZifHibvTXfQfbXvEoSLALHlfY/sS1cK11E/lBXw5RzEyYA3eiUeLd6mlmCjWTSA==
   dependencies:
-    "@rushstack/node-core-library" "3.42.3"
-    "@rushstack/rig-package" "0.3.3"
+    "@rushstack/node-core-library" "3.43.0"
+    "@rushstack/rig-package" "0.3.4"
     jsonpath-plus "~4.0.0"
 
 "@rushstack/heft-jest-plugin@0.1.41":
@@ -822,16 +822,16 @@
     eslint "~7.30.0"
     typescript "~4.4.2"
 
-"@rushstack/heft@0.41.7":
-  version "0.41.7"
-  resolved "https://registry.yarnpkg.com/@rushstack/heft/-/heft-0.41.7.tgz#ca7c6f98e52339de04a01b3340fc97874fa4e3eb"
-  integrity sha512-YrC266w6R3tsRP8Tq39zDD9jV3lH203Q3JH0f3Aip7K8i2dVEXc6WKsY46EBGjZGzgiw1nOtycjSz5TDOjESHQ==
+"@rushstack/heft@0.41.8":
+  version "0.41.8"
+  resolved "https://registry.yarnpkg.com/@rushstack/heft/-/heft-0.41.8.tgz#e7b6247a98ef9d7aeae73e6eb1a86257b3cc6401"
+  integrity sha512-kNUcZMUMQuGjf+Z4izz2K6jXTWZJy5Llxr5OKWYQ/gZtB6Os8p7gpBKGDgpGYPlEhzTp1cIAYiibf/bTKZQbTw==
   dependencies:
-    "@rushstack/heft-config-file" "0.7.3"
-    "@rushstack/node-core-library" "3.42.3"
-    "@rushstack/rig-package" "0.3.3"
-    "@rushstack/ts-command-line" "4.10.2"
-    "@rushstack/typings-generator" "0.4.3"
+    "@rushstack/heft-config-file" "0.7.4"
+    "@rushstack/node-core-library" "3.43.0"
+    "@rushstack/rig-package" "0.3.4"
+    "@rushstack/ts-command-line" "4.10.3"
+    "@rushstack/typings-generator" "0.4.4"
     "@types/tapable" "1.0.6"
     argparse "~1.0.9"
     chokidar "~3.4.0"
@@ -873,10 +873,10 @@
     timsort "~0.3.0"
     z-schema "~3.18.3"
 
-"@rushstack/node-core-library@3.42.3":
-  version "3.42.3"
-  resolved "https://registry.yarnpkg.com/@rushstack/node-core-library/-/node-core-library-3.42.3.tgz#e9bc8aee4ba047d1858afcb7822b5aaf973b4fd8"
-  integrity sha512-xtiJsHtO4Sf/hVKyf/8d58p3zQh2JAZNs1mmDNCyIlgSRYGdqUkpadvvn5mz7EwF6lwn+xTTaTV5/a32xKjbdw==
+"@rushstack/node-core-library@3.43.0":
+  version "3.43.0"
+  resolved "https://registry.yarnpkg.com/@rushstack/node-core-library/-/node-core-library-3.43.0.tgz#aace43bf49bc907445fa306f8c2e6010a8353cda"
+  integrity sha512-MFLW+6X83k6o8m8KnWkDhL/8NCJYHbFnnDokPSX1UHC3JwiEvVhHmEnxZv2YEzwnXeFYoKViub2G2t2liHbHLA==
   dependencies:
     "@types/node" "12.20.24"
     colors "~1.2.1"
@@ -904,10 +904,10 @@
     resolve "~1.17.0"
     strip-json-comments "~3.1.1"
 
-"@rushstack/rig-package@0.3.3":
-  version "0.3.3"
-  resolved "https://registry.yarnpkg.com/@rushstack/rig-package/-/rig-package-0.3.3.tgz#6e291d181b2b9b114dd8e806e8389d999142d137"
-  integrity sha512-ElPnChxIkUzcU3ywI0Cl7E1aM+2w6vFpAwM6X+oWk7Cyjf2ofItThje9e5qUBtKqvI9sc5jVsHY1bRC8rVwOqQ==
+"@rushstack/rig-package@0.3.4":
+  version "0.3.4"
+  resolved "https://registry.yarnpkg.com/@rushstack/rig-package/-/rig-package-0.3.4.tgz#13987cea8eef2f350e2e7538e028fa839f8c4f3c"
+  integrity sha512-NsCzPxPQ8cu7lnqa/4xBQXuCJwaBrb5vEbOC8Q/bMQK7GDOxeVUN3/f+NCYjgQSl39toAm8jQJ7TJe+RYYX3yQ==
   dependencies:
     resolve "~1.17.0"
     strip-json-comments "~3.1.1"
@@ -932,10 +932,10 @@
     colors "~1.2.1"
     string-argv "~0.3.1"
 
-"@rushstack/ts-command-line@4.10.2":
-  version "4.10.2"
-  resolved "https://registry.yarnpkg.com/@rushstack/ts-command-line/-/ts-command-line-4.10.2.tgz#019d43d8428e243031c66aeac1f088687f6730f3"
-  integrity sha512-Weq8B7oJeCQ4ITsaVLhOQombipyg+idpkdkhA6UqLtKvuzq8zTtPpAfhP5ff5L+RCmo1CFCVOBE3i+MvzUR5vA==
+"@rushstack/ts-command-line@4.10.3":
+  version "4.10.3"
+  resolved "https://registry.yarnpkg.com/@rushstack/ts-command-line/-/ts-command-line-4.10.3.tgz#2b8610473f2aa9e22450273f662abb02a3979a11"
+  integrity sha512-DdDfwr8CO6CP/kBZlQrrwKyA6UxOteujaIBrmoHa+J+dyLZC19YA/LK0fAHjr2qHLAJHHXVpZwPH8BpqN84oVg==
   dependencies:
     "@types/argparse" "1.0.38"
     argparse "~1.0.9"
@@ -952,12 +952,12 @@
     colors "~1.2.1"
     string-argv "~0.3.1"
 
-"@rushstack/typings-generator@0.4.3":
-  version "0.4.3"
-  resolved "https://registry.yarnpkg.com/@rushstack/typings-generator/-/typings-generator-0.4.3.tgz#7cdf0cd87a27dd34ddcedf595845ab1aeb22cd8a"
-  integrity sha512-lj5FjFosQu2UGD7kA6hk1JNjV4M1rwDZq/e264ai+cDBSxchXWRoQAgOMTq5VqmpXlSrEnU1wTsphrn6jJ88Kg==
+"@rushstack/typings-generator@0.4.4":
+  version "0.4.4"
+  resolved "https://registry.yarnpkg.com/@rushstack/typings-generator/-/typings-generator-0.4.4.tgz#5ecb4e1fab85daa1000e1c1ca11864aa80ee1544"
+  integrity sha512-Mz0Xjy3F9l+gpGLpdgGML/LRc2Ax217ZZT7OeASGgCncHFLVLAUIZ+3463gib95V8IkSGiyphoi77z3wefp72Q==
   dependencies:
-    "@rushstack/node-core-library" "3.42.3"
+    "@rushstack/node-core-library" "3.43.0"
     "@types/node" "12.20.24"
     chokidar "~3.4.0"
     glob "~7.0.5"
