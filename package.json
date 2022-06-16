@@ -18,7 +18,7 @@
     "test": "mocha"
   },
   "dependencies": {
-    "node-fetch": "2.6.5"
+    "node-fetch": "2.6.7"
   },
   "devDependencies": {
     "@microsoft/rush-stack-compiler-4.2": "0.1.1",
