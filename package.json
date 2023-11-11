@@ -21,7 +21,7 @@
     "node-fetch": "2.6.7"
   },
   "devDependencies": {
-    "@microsoft/rush-stack-compiler-4.2": "0.1.1",
+    "@microsoft/rush-stack-compiler-4.2": "0.2.0",
     "@rushstack/eslint-config": "2.6.0",
     "@rushstack/heft": "0.41.8",
     "@rushstack/heft-node-rig": "1.2.27",
