@@ -28,7 +28,7 @@
     "@types/node": "^20.9.1",
     "@types/request": "^2.48.7",
     "@types/webpack-env": "1.18.4",
-    "eslint": "8.53.0",
+    "eslint": "8.55.0",
     "mocha": "10.2.0",
     "node-notifier": "10.0.1",
     "should": "^13.2.3",
