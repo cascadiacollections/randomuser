@@ -22,7 +22,7 @@
   },
   "devDependencies": {
     "@microsoft/rush-stack-compiler-4.2": "0.3.1",
-    "@rushstack/eslint-config": "3.6.4",
+    "@rushstack/eslint-config": "3.6.5",
     "@rushstack/heft": "0.41.8",
     "@rushstack/heft-node-rig": "1.2.27",
     "@types/node": "^20.9.1",
