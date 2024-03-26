@@ -828,10 +828,10 @@
     source-map "~0.6.1"
     typescript "~4.2.4"
 
-"@microsoft/rush-stack-compiler-4.2@0.3.1":
-  version "0.3.1"
-  resolved "https://registry.yarnpkg.com/@microsoft/rush-stack-compiler-4.2/-/rush-stack-compiler-4.2-0.3.1.tgz#259d00863ccd41c68c9a70c4d71f112f17fcac7d"
-  integrity sha512-PD7SfweezhnhFAVFQUrQgmI5F6corwkv7cOI7qKVU9nBuI4hfix0LSVseN/GBScWRMez32Wk636YKDHGL1LNdQ==
+"@microsoft/rush-stack-compiler-4.2@0.3.2":
+  version "0.3.2"
+  resolved "https://registry.yarnpkg.com/@microsoft/rush-stack-compiler-4.2/-/rush-stack-compiler-4.2-0.3.2.tgz#cf36bcbeccc88b4575f21660e270205d4e85fbcb"
+  integrity sha512-IokY556aZHLd3czr+gm1fyMoxb52D1kIPfVEJ+z2DQvedbP7deHPldWbIkawQ90hULPL6BzlDIB+ch47YfNLgQ==
   dependencies:
     "@microsoft/api-extractor" "~7.15.2"
     "@rushstack/eslint-config" "~2.6.2"
