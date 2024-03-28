@@ -892,12 +892,12 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
-"@rushstack/eslint-config@3.6.5":
-  version "3.6.5"
-  resolved "https://registry.yarnpkg.com/@rushstack/eslint-config/-/eslint-config-3.6.5.tgz#32618e6b9fb69dc6d3ad22502abf50d8609daf3e"
-  integrity sha512-Ez0bWhjZ75Apj3BqEcnlGc8EwXa2+WeZNBYwunDvmYHPb/rNbtN9x443ZRRvt/vsWIF4lkp2PSM/MKSi20G07g==
+"@rushstack/eslint-config@3.6.7":
+  version "3.6.7"
+  resolved "https://registry.yarnpkg.com/@rushstack/eslint-config/-/eslint-config-3.6.7.tgz#ca64b14fec881865f15ff0d9338cfcae21d7e9cf"
+  integrity sha512-1Mul9Wic98xgOt8XHRwHr+OVRewsUxl7TW3BWU7iI0+JUXdZu55jB28RbQV0d5bVWDO8YEuZ31+8u0M953Ws3Q==
   dependencies:
-    "@rushstack/eslint-patch" "1.8.0"
+    "@rushstack/eslint-patch" "1.10.0"
     "@rushstack/eslint-plugin" "0.15.1"
     "@rushstack/eslint-plugin-packlets" "0.9.1"
     "@rushstack/eslint-plugin-security" "0.8.1"
@@ -931,10 +931,10 @@
   resolved "https://registry.yarnpkg.com/@rushstack/eslint-patch/-/eslint-patch-1.1.4.tgz#0c8b74c50f29ee44f423f7416829c0bf8bb5eb27"
   integrity sha512-LwzQKA4vzIct1zNZzBmRKI9QuNpLgTQMEjsQLf3BXuGYb3QPTP4Yjf6mkdX+X1mYttZ808QpOwAzZjv28kq7DA==
 
-"@rushstack/eslint-patch@1.8.0":
-  version "1.8.0"
-  resolved "https://registry.yarnpkg.com/@rushstack/eslint-patch/-/eslint-patch-1.8.0.tgz#c5545e6a5d2bd5c26b4021c357177a28698c950e"
-  integrity sha512-0HejFckBN2W+ucM6cUOlwsByTKt9/+0tWhqUffNIcHqCXkthY/mZ7AuYPK/2IIaGWhdl0h+tICDO0ssLMd6XMQ==
+"@rushstack/eslint-patch@1.10.0":
+  version "1.10.0"
+  resolved "https://registry.yarnpkg.com/@rushstack/eslint-patch/-/eslint-patch-1.10.0.tgz#b88671c367284bb50b1cb6a842d7e0d98e9f4e55"
+  integrity sha512-ih6xH1dOGBTP/RNc/QbnVLLa/s80SkXydI7tnyq+a2eIdd7gDsmSpD1Jz7T1oCa+GIsVTyQCR3cW0tlYB97iFg==
 
 "@rushstack/eslint-plugin-packlets@0.4.1":
   version "0.4.1"
