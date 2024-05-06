@@ -3,9 +3,8 @@
 {
 	"name": "Node.js",
 	"build": {
-		"dockerfile": "Dockerfile",
-		"args": { "VARIANT": "22" }
+		"dockerfile": "Dockerfile"
 	},
-	"postCreateCommand": "yarn install",
+	"postCreateCommand": "yarn",
 	"remoteUser": "node"
 }
