@@ -21,12 +21,12 @@
     "node-fetch": "2.7.0"
   },
   "devDependencies": {
-    "@microsoft/rush-stack-compiler-4.2": "0.3.2",
+    "@microsoft/rush-stack-compiler-5.3": "0.1.0",
     "@rushstack/eslint-config": "3.6.9",
-    "@rushstack/heft": "0.41.8",
-    "@rushstack/heft-node-rig": "1.2.27",
-    "@types/node": "^20.9.1",
-    "@types/request": "^2.48.7",
+    "@rushstack/heft": "0.66.3",
+    "@rushstack/heft-node-rig": "2.6.0",
+    "@types/node": "^20.12.8",
+    "@types/request": "^2.48.12",
     "@types/webpack-env": "1.18.4",
     "eslint": "8.57.0",
     "mocha": "10.4.0",
