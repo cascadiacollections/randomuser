@@ -908,6 +908,23 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
+"@rushstack/eslint-config@3.6.10":
+  version "3.6.10"
+  resolved "https://registry.yarnpkg.com/@rushstack/eslint-config/-/eslint-config-3.6.10.tgz#9cf33933dd2eb3167d9ce58f7a89c41ad20ea740"
+  integrity sha512-Q0g5j0RuvLghsfRxczyyZXROMCZ4Gn994GGZoDeBJD/+MR2SACakmj3fw8WkG4gXUSrFPZoLlLPakRW4sYKHLg==
+  dependencies:
+    "@rushstack/eslint-patch" "1.10.3"
+    "@rushstack/eslint-plugin" "0.15.1"
+    "@rushstack/eslint-plugin-packlets" "0.9.1"
+    "@rushstack/eslint-plugin-security" "0.8.1"
+    "@typescript-eslint/eslint-plugin" "~6.19.0"
+    "@typescript-eslint/parser" "~6.19.0"
+    "@typescript-eslint/typescript-estree" "~6.19.0"
+    "@typescript-eslint/utils" "~6.19.0"
+    eslint-plugin-promise "~6.1.1"
+    eslint-plugin-react "~7.33.2"
+    eslint-plugin-tsdoc "~0.2.16"
+
 "@rushstack/eslint-config@3.6.9":
   version "3.6.9"
   resolved "https://registry.yarnpkg.com/@rushstack/eslint-config/-/eslint-config-3.6.9.tgz#6abeb8b3037921f6a8ee76284370396c561b14a8"
@@ -951,6 +968,11 @@
   version "1.10.2"
   resolved "https://registry.yarnpkg.com/@rushstack/eslint-patch/-/eslint-patch-1.10.2.tgz#053f1540703faa81dea2966b768ee5581c66aeda"
   integrity sha512-hw437iINopmQuxWPSUEvqE56NCPsiU8N4AYtfHmJFckclktzK9YQJieD3XkDCDH4OjL+C7zgPUh73R/nrcHrqw==
+
+"@rushstack/eslint-patch@1.10.3":
+  version "1.10.3"
+  resolved "https://registry.yarnpkg.com/@rushstack/eslint-patch/-/eslint-patch-1.10.3.tgz#391d528054f758f81e53210f1a1eebcf1a8b1d20"
+  integrity sha512-qC/xYId4NMebE6w/V33Fh9gWxLgURiNYgVNObbJl2LZv0GUUItCcCqC5axQSwRaAgaxl2mELq1rMzlswaQ0Zxg==
 
 "@rushstack/eslint-plugin-packlets@0.4.1":
   version "0.4.1"
