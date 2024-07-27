@@ -29,7 +29,7 @@
     "@types/request": "^2.48.12",
     "@types/webpack-env": "1.18.5",
     "eslint": "8.57.0",
-    "mocha": "10.6.0",
+    "mocha": "10.7.0",
     "node-notifier": "10.0.1",
     "should": "^13.2.3",
     "typescript": "5.5.4",
