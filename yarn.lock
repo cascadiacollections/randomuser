@@ -845,12 +845,12 @@
     eslint-plugin-react "~7.33.2"
     eslint-plugin-tsdoc "~0.2.16"
 
-"@rushstack/eslint-config@4.1.0":
-  version "4.1.0"
-  resolved "https://registry.yarnpkg.com/@rushstack/eslint-config/-/eslint-config-4.1.0.tgz#7c836e7d09da38e095657a19de3806468f40a4ba"
-  integrity sha512-PkRpgb5Qs/4f44tWsYhYSCX8OyWTXvmcltQzJu3F5a1lhHl/nJfGopaiw3h7wSLzj01NK+sxMzZl9XYRskaOIg==
+"@rushstack/eslint-config@4.1.1":
+  version "4.1.1"
+  resolved "https://registry.yarnpkg.com/@rushstack/eslint-config/-/eslint-config-4.1.1.tgz#ce4407dbb4ffc76b1f0f826ed63def41818b50e1"
+  integrity sha512-fVL6mGv2pFEe8t8FRu6rKYRHpTIYrbY/Iqc/xQTa4u4bp6V+Y47teSWn1FeApgKk5tr34KmWqLPjzyNKEOTCig==
   dependencies:
-    "@rushstack/eslint-patch" "1.10.4"
+    "@rushstack/eslint-patch" "1.10.5"
     "@rushstack/eslint-plugin" "0.16.1"
     "@rushstack/eslint-plugin-packlets" "0.9.2"
     "@rushstack/eslint-plugin-security" "0.8.3"
@@ -889,10 +889,10 @@
   resolved "https://registry.npmjs.org/@rushstack/eslint-patch/-/eslint-patch-1.10.2.tgz"
   integrity sha512-hw437iINopmQuxWPSUEvqE56NCPsiU8N4AYtfHmJFckclktzK9YQJieD3XkDCDH4OjL+C7zgPUh73R/nrcHrqw==
 
-"@rushstack/eslint-patch@1.10.4":
-  version "1.10.4"
-  resolved "https://registry.npmjs.org/@rushstack/eslint-patch/-/eslint-patch-1.10.4.tgz"
-  integrity sha512-WJgX9nzTqknM393q1QJDJmoW28kUfEnybeTfVNcNAPnIx210RXm2DiXiHzfNPJNIUUb1tJnz/l4QGtJ30PgWmA==
+"@rushstack/eslint-patch@1.10.5":
+  version "1.10.5"
+  resolved "https://registry.yarnpkg.com/@rushstack/eslint-patch/-/eslint-patch-1.10.5.tgz#3a1c12c959010a55c17d46b395ed3047b545c246"
+  integrity sha512-kkKUDVlII2DQiKy7UstOR1ErJP8kUKAQ4oa+SQtM0K+lPdmmjj0YnnxBgtTVYH7mUKtbsxeFC9y0AmK7Yb78/A==
 
 "@rushstack/eslint-plugin-packlets@0.4.1":
   version "0.4.1"
