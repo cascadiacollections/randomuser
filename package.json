@@ -33,7 +33,7 @@
     "mocha": "11.1.0",
     "node-notifier": "10.0.1",
     "should": "^13.2.3",
-    "typescript": "5.7.3",
+    "typescript": "5.8.2",
     "webpack": "^5.48.0"
   },
   "publishConfig": {
