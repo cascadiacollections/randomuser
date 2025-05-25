@@ -31,3 +31,24 @@ describe('r.getUsers()', () => {
     });
   });
 });
+
+describe('r.getUsersAsync()', () => {
+  let r;
+
+  beforeEach(() => {
+    r = new RandomUser();
+  });
+
+  it('should successfully complete a request without params', async () => {
+    const data = await r.getUsersAsync();
+    should.exist(data);
+    data.should.be.an.Array();
+  });
+
+  it('should successfully complete a request with params', async () => {
+    const data = await r.getUsersAsync({ seed: "foxie", results: 5, gender: "male" });
+    should.exist(data);
+    data.should.be.an.Array();
+    data.length.should.equal(5);
+  });
+});

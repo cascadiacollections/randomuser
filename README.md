@@ -13,6 +13,27 @@ A tiny NodeJS client for generating random users - https://randomuser.me.
 
 ## Getting started
 
+### Async/Promise-based API (Recommended)
+
+```typescript
+const RandomUser = require('randomuser');
+const client = new RandomUser();
+
+// Async/await with options
+async function getRandomUsers() {
+  const data = await client.getUsersAsync({ seed: "foxie", results: 5, gender: "male" });
+  console.log(data);
+}
+
+// Promise-based without options
+client.getUsersAsync()
+  .then(data => {
+    console.log(data);
+  });
+```
+
+### Callback API (Deprecated)
+
 ```typescript
 const RandomUser = require('randomuser');
 const client = new RandomUser();
