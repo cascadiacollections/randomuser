@@ -1,8 +1,76 @@
+/**
+ * Options for asynchronous API requests
+ */
+export interface AsyncRequestOptions {
+    /**
+     * AbortSignal to cancel the request
+     */
+    signal?: AbortSignal;
+    /**
+     * Timeout in milliseconds
+     */
+    timeout?: number;
+}
+
+/**
+ * Parameters that can be passed to the RandomUser API
+ */
+export interface RandomUserParams {
+    /**
+     * Determines the set of users to generate
+     */
+    seed?: string;
+    /**
+     * Number of results to return (default: 1)
+     */
+    results?: number | string;
+    /**
+     * Filter users by gender (male, female)
+     */
+    gender?: 'male' | 'female' | string;
+    /**
+     * Nationality filter
+     */
+    nat?: string | string[];
+    /**
+     * Request page number
+     */
+    page?: number | string;
+    /**
+     * Field inclusion filter
+     */
+    inc?: string | string[];
+    /**
+     * Field exclusion filter
+     */
+    exc?: string | string[];
+    /**
+     * Password configuration
+     */
+    password?: string;
+    [key: string]: string | number | readonly string[] | undefined;
+}
+
+/**
+ * Error thrown by the RandomUser API
+ */
+export interface RandomUserError extends Error {
+    code?: string;
+    status?: number;
+}
+
+/**
+ * Response from the RandomUser API
+ */
 export interface IRandomUserResponse {
     results: Result[];
     info:    Info;
+    error?:  string;
 }
 
+/**
+ * Metadata about the request
+ */
 export interface Info {
     seed:    string;
     results: number;
