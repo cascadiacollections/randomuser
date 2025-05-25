@@ -1,22 +1,8 @@
 import * as fetch from 'node-fetch';
 import { URLSearchParams } from 'url';
-import type { IRandomUserResponse, Result, RandomUserParams, RandomUserError } from './types';
+import type { IRandomUserResponse, Result, RandomUserParams, RandomUserError, AsyncRequestOptions } from './types';
 
 const BASE_URL: string = 'https://randomuser.me/api/';
-
-/**
- * Options for asynchronous API requests
- */
-export interface AsyncRequestOptions {
-    /**
-     * AbortSignal to cancel the request
-     */
-    signal?: AbortSignal;
-    /**
-     * Timeout in milliseconds
-     */
-    timeout?: number;
-}
 
 interface _IRandomUser {
     /**
@@ -183,5 +169,6 @@ class RandomUser implements _IRandomUser {
     }
 }
 
-// Export the RandomUser class - this replaces the previous "export = RandomUser" syntax
-export default RandomUser;
+// Use the CommonJS module.exports pattern to maintain backward compatibility
+// This allows existing code to continue using: const RandomUser = require('randomuser')
+export = RandomUser;

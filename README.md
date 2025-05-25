@@ -17,11 +17,11 @@ A tiny NodeJS client for generating random users - https://randomuser.me.
 
 ```typescript
 // CommonJS
-const RandomUser = require('randomuser').default;
+const RandomUser = require('randomuser');
 const client = new RandomUser();
 
-// ES Modules
-import RandomUser from 'randomuser';
+// ES Modules (TypeScript)
+import * as RandomUser from 'randomuser';
 const client = new RandomUser();
 
 // Async/await with options
@@ -74,7 +74,7 @@ async function getRandomUsersWithTimeoutOption() {
 ### Callback API (Deprecated)
 
 ```typescript
-const RandomUser = require('randomuser').default;
+const RandomUser = require('randomuser');
 const client = new RandomUser();
 
 // With options

@@ -1,4 +1,18 @@
 /**
+ * Options for asynchronous API requests
+ */
+export interface AsyncRequestOptions {
+    /**
+     * AbortSignal to cancel the request
+     */
+    signal?: AbortSignal;
+    /**
+     * Timeout in milliseconds
+     */
+    timeout?: number;
+}
+
+/**
  * Parameters that can be passed to the RandomUser API
  */
 export interface RandomUserParams {
