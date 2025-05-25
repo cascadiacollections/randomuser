@@ -1,7 +1,7 @@
 // @ts-check
 'use strict';
 
-const RandomUser = require('..').default;
+const RandomUser = require('..');
 const should = require('should');
 
 // Simple test suite that doesn't rely on actual API calls
