@@ -1,0 +1,51 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug Current File (Built)",
+            "type": "node",
+            "request": "launch",
+            "program": "${workspaceFolder}/lib/${fileBasenameNoExtension}.js",
+            "preLaunchTask": "Build",
+            "env": {
+                "NODE_ENV": "development"
+            },
+            "console": "integratedTerminal",
+            "sourceMaps": true,
+            "outFiles": ["${workspaceFolder}/lib/**/*.js"],
+            "skipFiles": ["<node_internals>/**"]
+        },
+        {
+            "name": "Debug Mocha Tests",
+            "type": "node",
+            "request": "launch",
+            "program": "${workspaceFolder}/node_modules/.bin/mocha",
+            "args": ["test/**/*.test.js"],
+            "env": {
+                "NODE_ENV": "test"
+            },
+            "console": "integratedTerminal",
+            "skipFiles": ["<node_internals>/**"]
+        },
+        {
+            "name": "Debug Built Application",
+            "type": "node",
+            "request": "launch",
+            "program": "${workspaceFolder}/lib/index.js",
+            "env": {
+                "NODE_ENV": "development"
+            },
+            "console": "integratedTerminal",
+            "sourceMaps": true,
+            "outFiles": ["${workspaceFolder}/lib/**/*.js"],
+            "skipFiles": ["<node_internals>/**"]
+        },
+        {
+            "name": "Attach to Process",
+            "type": "node",
+            "request": "attach",
+            "port": 9229,
+            "skipFiles": ["<node_internals>/**"]
+        }
+    ]
+}

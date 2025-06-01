@@ -1,7 +1,92 @@
 {
+    // File handling
     "files.trimTrailingWhitespace": true,
     "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "files.eol": "\n",
+    "files.encoding": "utf8",
+    
+    // Editor settings
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true,
+    "editor.detectIndentation": false,
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": "explicit",
+        "source.organizeImports": "explicit"
+    },
+    "editor.rulers": [120],
+    "editor.wordWrap": "bounded",
+    "editor.wordWrapColumn": 120,
+    
+    // TypeScript settings
+    "typescript.preferences.importModuleSpecifier": "relative",
+    "typescript.preferences.includePackageJsonAutoImports": "auto",
+    "typescript.suggest.autoImports": true,
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "typescript.inlayHints.parameterNames.enabled": "literals",
+    "typescript.inlayHints.variableTypes.enabled": false,
+    "typescript.inlayHints.functionLikeReturnTypes.enabled": true,
+    
+    // JavaScript/TypeScript formatting
+    "[typescript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features",
+        "editor.tabSize": 4
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features",
+        "editor.tabSize": 4
+    },
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features",
+        "editor.tabSize": 2
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features",
+        "editor.tabSize": 2
+    },
+    
+    // ESLint settings
+    "eslint.enable": true,
+    "eslint.validate": [
+        "javascript",
+        "typescript"
+    ],
+    "eslint.workingDirectories": ["./"],
+    
+    // Search and exclude settings
+    "search.exclude": {
+        "**/node_modules": true,
+        "**/lib": true,
+        "**/*.map": true
+    },
+    "files.exclude": {
+        "**/node_modules": true,
+        "**/.git": true,
+        "**/.DS_Store": true,
+        "**/Thumbs.db": true
+    },
+    "files.watcherExclude": {
+        "**/node_modules/**": true,
+        "**/lib/**": true
+    },
+    
+    // Terminal settings
+    "terminal.integrated.defaultProfile.linux": "bash",
+    "terminal.integrated.cwd": "${workspaceFolder}",
+    
+    // GitHub Actions
     "github-actions.workflows.pinned.workflows": [
         ".github/workflows/node.js.yml"
-    ]
+    ],
+    
+    // Testing
+    "mochaExplorer.files": "test/**/*.test.js",
+    "mochaExplorer.env": {
+        "NODE_ENV": "test"
+    },
+    
+    // Git settings
+    "git.ignoreLimitWarning": true,
+    "git.autofetch": true
 }
