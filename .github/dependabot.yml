@@ -1,8 +1,81 @@
 version: 2
 updates:
+  # NPM dependencies - group by update type for better PR management
   - package-ecosystem: "npm"
     directory: "/"
     schedule:
-      interval: "daily"
+      interval: "weekly"
+      day: "monday"
+      time: "09:00"
+      timezone: "America/Los_Angeles"
+    versioning-strategy: increase
+    commit-message:
+      prefix: "chore"
+      prefix-development: "chore"
+      include: "scope"
+    labels:
+      - "dependencies"
+      - "npm"
+    reviewers:
+      - "KevinTCoughlin"
+    groups:
+      # Group production dependencies
+      production-dependencies:
+        patterns:
+          - "*"
+        exclude-patterns:
+          - "@types/*"
+          - "@microsoft/*"
+          - "@rushstack/*"
+          - "eslint*"
+          - "mocha"
+          - "should"
+          - "typescript"
+          - "webpack"
+          - "node-notifier"
+      # Group development dependencies  
+      development-dependencies:
+        patterns:
+          - "@types/*"
+          - "@microsoft/*"
+          - "@rushstack/*"
+          - "eslint*"
+          - "mocha"
+          - "should"
+          - "typescript"
+          - "webpack"
+          - "node-notifier"
+
+  # Docker dependencies for devcontainer
+  - package-ecosystem: "docker"
+    directory: "/.devcontainer"
+    schedule:
+      interval: "monthly"
+      day: "monday"
+      time: "09:00"
+      timezone: "America/Los_Angeles"
+    commit-message:
+      prefix: "chore"
+      include: "scope"
+    labels:
+      - "dependencies"
+      - "docker"
+    reviewers:
+      - "KevinTCoughlin"
+
+  # GitHub Actions dependencies
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+      time: "09:00"
+      timezone: "America/Los_Angeles"
+    commit-message:
+      prefix: "chore"
+      include: "scope"
+    labels:
+      - "dependencies"
+      - "github-actions"
     reviewers:
       - "KevinTCoughlin"
