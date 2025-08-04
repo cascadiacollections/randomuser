@@ -401,6 +401,18 @@
   resolved "https://registry.yarnpkg.com/@humanwhocodes/retry/-/retry-0.4.3.tgz#c2b9d2e374ee62c586d3adbea87199b1d7a7a6ba"
   integrity sha512-bV0Tgo9K4hfPCek+aMAn81RppFKv2ySDQeMoSZuvTASywNTnVJCArCZE2FWqpvIatKu7VMRLWlR1EazvVhDyhQ==
 
+"@isaacs/balanced-match@^4.0.1":
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/@isaacs/balanced-match/-/balanced-match-4.0.1.tgz#3081dadbc3460661b751e7591d7faea5df39dd29"
+  integrity sha512-yzMTt9lEb8Gv7zRioUilSglI0c0smZ9k5D65677DLWLtWJaXIS3CqcGyUFByYKlnUj6TkjLVs54fBl6+TiGQDQ==
+
+"@isaacs/brace-expansion@^5.0.0":
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/@isaacs/brace-expansion/-/brace-expansion-5.0.0.tgz#4b3dabab7d8e75a429414a96bd67bf4c1d13e0f3"
+  integrity sha512-ZT55BDLV0yv0RBm2czMiZ+SqCGO7AvmOM3G/w2xhVPH+te0aKgFjmBvGlL1dH+ql2tgGO3MVrbb3jCKyvpgnxA==
+  dependencies:
+    "@isaacs/balanced-match" "^4.0.1"
+
 "@isaacs/cliui@^8.0.2":
   version "8.0.2"
   resolved "https://registry.yarnpkg.com/@isaacs/cliui/-/cliui-8.0.2.tgz#b37667b7bc181c168782259bab42474fbf52b550"
@@ -740,10 +752,10 @@
     "@microsoft/tsdoc-config" "~0.17.1"
     "@rushstack/node-core-library" "5.14.0"
 
-"@microsoft/api-extractor@7.52.9":
-  version "7.52.9"
-  resolved "https://registry.yarnpkg.com/@microsoft/api-extractor/-/api-extractor-7.52.9.tgz#a4a8b70269ffd6f919caa907ec53df585f06a30a"
-  integrity sha512-313nyhc6DSSMVKD43jZK6Yp5XbliGw5vjN7QOw1FHzR1V6DQ67k4dzkd3BSxMtWcm+cEs1Ux8rmDqots6EABFA==
+"@microsoft/api-extractor@7.52.10":
+  version "7.52.10"
+  resolved "https://registry.yarnpkg.com/@microsoft/api-extractor/-/api-extractor-7.52.10.tgz#bbae187c209b537a39f08592577fa1dd50b22e15"
+  integrity sha512-LhKytJM5ZJkbHQVfW/3o747rZUNs/MGg6j/wt/9qwwqEOfvUDTYXXxIBuMgrRXhJ528p41iyz4zjBVHZU74Odg==
   dependencies:
     "@microsoft/api-extractor-model" "7.30.7"
     "@microsoft/tsdoc" "~0.15.1"
@@ -753,7 +765,7 @@
     "@rushstack/terminal" "0.15.4"
     "@rushstack/ts-command-line" "5.0.2"
     lodash "~4.17.15"
-    minimatch "~3.0.3"
+    minimatch "10.0.3"
     resolve "~1.22.1"
     semver "~7.5.4"
     source-map "~0.6.1"
@@ -952,10 +964,10 @@
     "@rushstack/tree-pattern" "0.2.4"
     "@typescript-eslint/experimental-utils" "~5.20.0"
 
-"@rushstack/heft-api-extractor-plugin@0.4.9":
-  version "0.4.9"
-  resolved "https://registry.yarnpkg.com/@rushstack/heft-api-extractor-plugin/-/heft-api-extractor-plugin-0.4.9.tgz#d45a013f5d8b9c330448adb463549afec02b7a12"
-  integrity sha512-8egG0MsHm2CKdpwfwkJVKp67owMYfedcDXXFj9FZsbKGj4bSH1tAU5PIUsezhPJB3fTUefnPEz7NwJS+4/tFoQ==
+"@rushstack/heft-api-extractor-plugin@0.4.10":
+  version "0.4.10"
+  resolved "https://registry.yarnpkg.com/@rushstack/heft-api-extractor-plugin/-/heft-api-extractor-plugin-0.4.10.tgz#fe03738b5d4083d2010e38c4400a413d10fe754d"
+  integrity sha512-s2hAPHVYRxLp6ZbTiL1vF4SkMgM8RIM+1BkSZyd73AyJDpW8by9BcHaSN6Tctp0NvfIrpRx8Yppr1y3tdJLY2Q==
   dependencies:
     "@rushstack/node-core-library" "5.14.0"
     semver "~7.5.4"
@@ -971,10 +983,10 @@
     "@ungap/structured-clone" "~1.3.0"
     jsonpath-plus "~10.3.0"
 
-"@rushstack/heft-jest-plugin@0.16.10":
-  version "0.16.10"
-  resolved "https://registry.yarnpkg.com/@rushstack/heft-jest-plugin/-/heft-jest-plugin-0.16.10.tgz#778cc42b678ecd95b859d482449c73899f92fb5c"
-  integrity sha512-/+1iuuZKxtlCOPWQBJmeHTzmG3VwZyDtp+R4GiuOjnbbd3GxdpUf3gjcTjNUin3YK0igtoX9C+lX6637eUE4cQ==
+"@rushstack/heft-jest-plugin@0.16.11":
+  version "0.16.11"
+  resolved "https://registry.yarnpkg.com/@rushstack/heft-jest-plugin/-/heft-jest-plugin-0.16.11.tgz#9d6d75fe3ab20b017e125705b6014c5cd52b1664"
+  integrity sha512-qWJWmmRoOLF2v3UcVb0A+2sB9hJhGSdr05X3+uwkQ3DGD2YRoZHkNYN+lmKnhhthwaCszoiB6Wq872B1Wq6IjA==
   dependencies:
     "@jest/core" "~29.5.0"
     "@jest/reporters" "~29.5.0"
@@ -988,35 +1000,35 @@
     lodash "~4.17.15"
     punycode "~2.3.1"
 
-"@rushstack/heft-lint-plugin@0.7.2":
-  version "0.7.2"
-  resolved "https://registry.yarnpkg.com/@rushstack/heft-lint-plugin/-/heft-lint-plugin-0.7.2.tgz#ff5ef0b167525d56d70dffd81357c836bccfc15a"
-  integrity sha512-wXw/jgltQNF9X0bC9Z6eGL8Pzr9MQ87bMmQUcqIPYcIQZh+1fp3XgZnkcyyGHXXE8kFCQFu0PXEhcZEQYYskpQ==
+"@rushstack/heft-lint-plugin@0.7.3":
+  version "0.7.3"
+  resolved "https://registry.yarnpkg.com/@rushstack/heft-lint-plugin/-/heft-lint-plugin-0.7.3.tgz#d644764f5082c5923eff45867e6c858f4e4b10e1"
+  integrity sha512-4x08vZTK9GAOdvbsGe5kqUaU5RLM+ihDjcYSQD5U7RNYz1sBW0fynBKMroKXisOKZfUGj3z1s97RW9A0HVI+/w==
   dependencies:
     "@rushstack/node-core-library" "5.14.0"
     json-stable-stringify-without-jsonify "1.0.1"
     semver "~7.5.4"
 
-"@rushstack/heft-node-rig@2.9.2":
-  version "2.9.2"
-  resolved "https://registry.yarnpkg.com/@rushstack/heft-node-rig/-/heft-node-rig-2.9.2.tgz#0239c0d31c95d9f46b907b7bd210ec2ff7541c52"
-  integrity sha512-NQjwGqa/GofRjOqEZIhpgeLOGiAOC8iU70avKqw3J6o71JQfOww+bm+fRNQWKoYPXtyhbUnenTcyWhH2e6PoDg==
+"@rushstack/heft-node-rig@2.9.3":
+  version "2.9.3"
+  resolved "https://registry.yarnpkg.com/@rushstack/heft-node-rig/-/heft-node-rig-2.9.3.tgz#875f7ff1f655567e52273450822dfca1d8e7fbb3"
+  integrity sha512-Y/rL2iVUkJGCUGD/pTJ7re8BId0zcCuu89rzvkmvYCCoZREAVDxXQTbqcIMbf5GK/dqW4PYEzSnEQRSbQ7i/0g==
   dependencies:
-    "@microsoft/api-extractor" "7.52.9"
+    "@microsoft/api-extractor" "7.52.10"
     "@rushstack/eslint-config" "4.4.0"
-    "@rushstack/heft-api-extractor-plugin" "0.4.9"
-    "@rushstack/heft-jest-plugin" "0.16.10"
-    "@rushstack/heft-lint-plugin" "0.7.2"
-    "@rushstack/heft-typescript-plugin" "0.9.10"
+    "@rushstack/heft-api-extractor-plugin" "0.4.10"
+    "@rushstack/heft-jest-plugin" "0.16.11"
+    "@rushstack/heft-lint-plugin" "0.7.3"
+    "@rushstack/heft-typescript-plugin" "0.9.11"
     "@types/heft-jest" "1.0.1"
     eslint "~9.25.1"
     jest-environment-node "~29.5.0"
     typescript "~5.8.2"
 
-"@rushstack/heft-typescript-plugin@0.9.10":
-  version "0.9.10"
-  resolved "https://registry.yarnpkg.com/@rushstack/heft-typescript-plugin/-/heft-typescript-plugin-0.9.10.tgz#32060e6ab0f962eb82eaf3943f8a7b6d304a8cc1"
-  integrity sha512-UgxvTBkUFuGYXgsLNhMdXDUs56Y5m+504TCxNCGRkCjdKAX0C4IqqJiLYIWblRsbUebDiC8qkX0O8EREIeNzDg==
+"@rushstack/heft-typescript-plugin@0.9.11":
+  version "0.9.11"
+  resolved "https://registry.yarnpkg.com/@rushstack/heft-typescript-plugin/-/heft-typescript-plugin-0.9.11.tgz#fed05f2bc6cf23778bcc2e7300773c7a494c4a49"
+  integrity sha512-uOjixKtOU/VozIcMUd8ZU88sGYTp5twinKa2W7o46/6dv9nR/5SA/aZpaVECrDtuxcFJem4UMTKNX2faIOrqXQ==
   dependencies:
     "@rushstack/heft-config-file" "0.18.3"
     "@rushstack/node-core-library" "5.14.0"
@@ -1024,10 +1036,10 @@
     semver "~7.5.4"
     tapable "1.1.3"
 
-"@rushstack/heft@0.74.1":
-  version "0.74.1"
-  resolved "https://registry.yarnpkg.com/@rushstack/heft/-/heft-0.74.1.tgz#cfaf835d31457367788c6629e206390d17b9b55a"
-  integrity sha512-sK5o3rzjEKht9G1RN3XxtrNH5VKQbrBswXwVUw/sG0JJY48fa/hVa+wGgruxjgBd/QjSuHsUDlv7I/1nss2C/Q==
+"@rushstack/heft@0.74.2":
+  version "0.74.2"
+  resolved "https://registry.yarnpkg.com/@rushstack/heft/-/heft-0.74.2.tgz#b5602a38b7b2f280192ce1b2afea2c448a1b697b"
+  integrity sha512-siOQrl3wUJdT9nziKa7mRXUEO99ptqcdsxEx8+UurmKlxnNS9v2plfBiPgHNvwToc4JtMVtGjRIO/J/qmbkzOg==
   dependencies:
     "@rushstack/heft-config-file" "0.18.3"
     "@rushstack/node-core-library" "5.14.0"
@@ -1284,12 +1296,12 @@
     "@types/node" "*"
     form-data "^4.0.0"
 
-"@types/node@*", "@types/node@^24.1.0":
-  version "24.1.0"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-24.1.0.tgz#0993f7dc31ab5cc402d112315b463e383d68a49c"
-  integrity sha512-ut5FthK5moxFKH2T1CUOC6ctR67rQRvvHdFLCD2Ql6KXmMuCrjsSsRI9UsLCm9M18BMwClv4pn327UvB7eeO1w==
+"@types/node@*", "@types/node@^24.2.0":
+  version "24.2.0"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-24.2.0.tgz#cde712f88c5190006d6b069232582ecd1f94a760"
+  integrity sha512-3xyG3pMCq3oYCNg7/ZP+E1ooTaGB4cG8JWRsqqOYQdbWNY4zbaV0Ennrd7stjiJEFZCaybcIgpTjJWHRfBSIDw==
   dependencies:
-    undici-types "~7.8.0"
+    undici-types "~7.10.0"
 
 "@types/node@10.17.13":
   version "10.17.13"
@@ -4226,6 +4238,13 @@ mimic-fn@^2.1.0:
   resolved "https://registry.yarnpkg.com/mimic-fn/-/mimic-fn-2.1.0.tgz#7ed2c2ccccaf84d3ffcb7a69b57711fc2083401b"
   integrity sha512-OqbOk5oEQeAZ8WXWydlu9HJjz9WVdEIvamMCcXmuqUYjTknH/sqsWvhQ3vgwKFRR1HpjvNBKQ37nbJgYzGqGcg==
 
+minimatch@10.0.3:
+  version "10.0.3"
+  resolved "https://registry.yarnpkg.com/minimatch/-/minimatch-10.0.3.tgz#cf7a0314a16c4d9ab73a7730a0e8e3c3502d47aa"
+  integrity sha512-IPZ167aShDZZUMdRk66cyQAW3qr0WzbHkPdMYa8bzZhlHhO3jALbKdxcaak7W9FfT2rZNpQuUu4Od7ILEpXSaw==
+  dependencies:
+    "@isaacs/brace-expansion" "^5.0.0"
+
 minimatch@^3.0.4, minimatch@^3.1.1, minimatch@^3.1.2:
   version "3.1.2"
   resolved "https://registry.yarnpkg.com/minimatch/-/minimatch-3.1.2.tgz#19cd194bfd3e428f049a70817c038d89ab4be35b"
@@ -4239,13 +4258,6 @@ minimatch@^9.0.4, minimatch@^9.0.5:
   integrity sha512-G6T0ZX48xgozx7587koeX9Ys2NYy6Gmv//P89sEte9V9whIapMNF4idKxnW2QtCcLiTWlb/wfCabAtAFWhhBow==
   dependencies:
     brace-expansion "^2.0.1"
-
-minimatch@~3.0.3:
-  version "3.0.8"
-  resolved "https://registry.yarnpkg.com/minimatch/-/minimatch-3.0.8.tgz#5e6a59bd11e2ab0de1cfb843eb2d82e546c321c1"
-  integrity sha512-6FsRAQsxQ61mw+qP1ZzbL9Bc78x2p5OqNgNpnoAFLTrX8n5Kxph0CsnhmKKNXTWjXqU5L0pGPR7hYk+XWZr60Q==
-  dependencies:
-    brace-expansion "^1.1.7"
 
 "minipass@^5.0.0 || ^6.0.2 || ^7.0.0", minipass@^7.1.2:
   version "7.1.2"
@@ -5266,10 +5278,10 @@ typescript@5.8.2:
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-5.8.2.tgz#8170b3702f74b79db2e5a96207c15e65807999e4"
   integrity sha512-aJn6wq13/afZp/jT9QZmwEjDqqvSGp1VT5GVg+f/t6/oVyrgXM6BY1h9BRh/O5p3PlUPAe+WuiEZOmb/49RqoQ==
 
-typescript@5.8.3, typescript@~5.8.2:
-  version "5.8.3"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-5.8.3.tgz#92f8a3e5e3cf497356f4178c34cd65a7f5e8440e"
-  integrity sha512-p1diW6TqL9L07nNxvRMM7hMMw4c5XOo/1ibL4aAIGmSAt9slTE1Xgw5KWuof2uTOvCg9BY7ZRi+GaF+7sfgPeQ==
+typescript@5.9.2:
+  version "5.9.2"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-5.9.2.tgz#d93450cddec5154a2d5cabe3b8102b83316fb2a6"
+  integrity sha512-CWBzXQrc/qOkhidw1OzBTQuYRbfyxDXJMVJ1XNwUHGROVmuaeiEm3OslpZ1RV96d7SKKjZKrSJu3+t/xlw3R9A==
 
 typescript@~4.2.4:
   version "4.2.4"
@@ -5281,6 +5293,11 @@ typescript@~5.3.3:
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-5.3.3.tgz#b3ce6ba258e72e6305ba66f5c9b452aaee3ffe37"
   integrity sha512-pXWcraxM0uxAS+tN0AG/BF2TyqmHO014Z070UsJ+pFvYuRSq8KH8DmWpnbXe0pEPDHXZV3FcAbJkijJ5oNEnWw==
 
+typescript@~5.8.2:
+  version "5.8.3"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-5.8.3.tgz#92f8a3e5e3cf497356f4178c34cd65a7f5e8440e"
+  integrity sha512-p1diW6TqL9L07nNxvRMM7hMMw4c5XOo/1ibL4aAIGmSAt9slTE1Xgw5KWuof2uTOvCg9BY7ZRi+GaF+7sfgPeQ==
+
 unbox-primitive@^1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/unbox-primitive/-/unbox-primitive-1.1.0.tgz#8d9d2c9edeea8460c7f35033a88867944934d1e2"
@@ -5291,10 +5308,10 @@ unbox-primitive@^1.1.0:
     has-symbols "^1.1.0"
     which-boxed-primitive "^1.1.1"
 
-undici-types@~7.8.0:
-  version "7.8.0"
-  resolved "https://registry.yarnpkg.com/undici-types/-/undici-types-7.8.0.tgz#de00b85b710c54122e44fbfd911f8d70174cd294"
-  integrity sha512-9UJ2xGDvQ43tYyVMpuHlsgApydB8ZKfVYTsLDhXkFL/6gfkp+U8xTGdh8pMJv1SpZna0zxG1DwsKZsreLbXBxw==
+undici-types@~7.10.0:
+  version "7.10.0"
+  resolved "https://registry.yarnpkg.com/undici-types/-/undici-types-7.10.0.tgz#4ac2e058ce56b462b056e629cc6a02393d3ff350"
+  integrity sha512-t5Fy/nfn+14LuOc2KNYg75vZqClpAiqscVvMygNnlsHBFpSXdJaYtXMcdNLpl/Qvc3P2cB3s6lOV51nqsFq4ag==
 
 universalify@^0.1.0:
   version "0.1.2"
