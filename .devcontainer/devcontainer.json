@@ -1,10 +1,33 @@
-// For format details, see https://aka.ms/devcontainer.json. For config options, see the README at:
-// https://github.com/microsoft/vscode-dev-containers/tree/v0.177.0/containers/javascript-node
 {
-	"name": "Node.js",
-	"build": {
-		"dockerfile": "Dockerfile"
-	},
-	"postCreateCommand": "yarn",
-	"remoteUser": "node"
+  "name": "randomuser",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "features": {
+    "ghcr.io/devcontainers/features/common-utils:2": {},
+    "ghcr.io/devcontainers/features/github-cli:1": {}
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "github.copilot",
+        "github.copilot-chat",
+        "github.vscode-pull-request-github",
+        "dbaeumer.vscode-eslint",
+        "esbenp.prettier-vscode",
+        "ms-vscode.vscode-typescript-next",
+        "editorconfig.editorconfig"
+      ],
+      "settings": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.codeActionsOnSave": {
+          "source.fixAll.eslint": "explicit"
+        },
+        "js/ts.preferences.importModuleSpecifier": "relative"
+      }
+    }
+  },
+  "postCreateCommand": "corepack enable && yarn install --prefer-offline",
+  "remoteUser": "node"
 }
