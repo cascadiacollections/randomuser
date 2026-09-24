@@ -118,3 +118,6 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+# This project uses Yarn (v1); npm lockfile is not used
+package-lock.json
