@@ -18,9 +18,14 @@ updates:
       - "npm"
     reviewers:
       - "KevinTCoughlin"
+    ignore:
+      # TypeScript 7 breaks the heft build (see #465)
+      - dependency-name: "typescript"
+        update-types: ["version-update:semver-major"]
     groups:
       # Group production dependencies
       production-dependencies:
+        update-types: ["minor", "patch"]
         patterns:
           - "*"
         exclude-patterns:
@@ -35,6 +40,7 @@ updates:
           - "node-notifier"
       # Group development dependencies  
       development-dependencies:
+        update-types: ["minor", "patch"]
         patterns:
           - "@types/*"
           - "@microsoft/*"
