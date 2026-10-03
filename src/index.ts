@@ -4,6 +4,20 @@ import type { IRandomUserResponse, Result, RandomUserParams, RandomUserError, As
 
 const BASE_URL: string = 'https://randomuser.me/api/';
 
+function createSearchParams(params: RandomUserParams): URLSearchParams {
+    const queryParams = new URLSearchParams();
+
+    for (const [key, value] of Object.entries(params)) {
+        if (Array.isArray(value)) {
+            value.forEach((item) => queryParams.append(key, item));
+        } else if (value !== undefined) {
+            queryParams.append(key, String(value));
+        }
+    }
+
+    return queryParams;
+}
+
 interface _IRandomUser {
     /**
      * Retrieves randomly generated users from API with optional parameters.
@@ -54,7 +68,7 @@ class RandomUser implements _IRandomUser {
         if (typeof callback !== 'function') {
             throw new Error('ERROR: Invalid callback function.');
         } else if (typeof params === 'object') {
-            const queryParams = new URLSearchParams(params as Record<string, string | readonly string[]>);
+            const queryParams = createSearchParams(params);
             url += queryParams.toString();
         }
 
@@ -113,7 +127,7 @@ class RandomUser implements _IRandomUser {
         let url: string = BASE_URL + '?';
 
         if (typeof params === 'object') {
-            const queryParams = new URLSearchParams(params as Record<string, string | readonly string[]>);
+            const queryParams = createSearchParams(params);
             url += queryParams.toString();
         }
 
