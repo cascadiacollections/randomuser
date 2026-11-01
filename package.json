@@ -34,7 +34,7 @@
     "node-notifier": "11.0.0",
     "should": "^13.2.3",
     "typescript": "5.9.3",
-    "webpack": "^5.112.0"
+    "webpack": "^5.112.2"
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
