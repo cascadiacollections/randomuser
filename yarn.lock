@@ -902,10 +902,10 @@
     "@microsoft/tsdoc-config" "~0.18.2"
     "@rushstack/node-core-library" "5.25.1"
 
-"@microsoft/api-extractor@7.59.4":
-  version "7.59.4"
-  resolved "https://registry.yarnpkg.com/@microsoft/api-extractor/-/api-extractor-7.59.4.tgz#29c404a852509f4bd2d77eaac9e0c23fc208d6e7"
-  integrity sha512-XqseDKIw736qlhQwS9SOpbY4veOiP2Nc7YiWmgXXBmeA3kY9qGXw+Tu7DFpU9FvXywE1z8SvLJKUVxFpcX0kig==
+"@microsoft/api-extractor@7.60.0":
+  version "7.60.0"
+  resolved "https://registry.yarnpkg.com/@microsoft/api-extractor/-/api-extractor-7.60.0.tgz#22be7a664c22b8e1b057382a9e1d6c0ca2da187e"
+  integrity sha512-z744eKZNJ75h4WlsJiEa8oqbRUfczNe5MexweXe9kcm/phhZBZqfkDZCzHR5dDf8FdZvNapYK/wRPnSUAKuoug==
   dependencies:
     "@microsoft/api-extractor-model" "7.33.15"
     "@microsoft/tsdoc" "~0.17.0"
@@ -919,7 +919,7 @@
     resolve "~1.22.1"
     semver "~7.7.4"
     source-map "~0.6.1"
-    typescript "5.9.3"
+    typescript "6.0.3"
 
 "@microsoft/api-extractor@~7.15.2":
   version "7.15.2"
@@ -1126,10 +1126,10 @@
     "@rushstack/tree-pattern" "0.2.4"
     "@typescript-eslint/experimental-utils" "~5.20.0"
 
-"@rushstack/heft-api-extractor-plugin@1.3.30":
-  version "1.3.30"
-  resolved "https://registry.yarnpkg.com/@rushstack/heft-api-extractor-plugin/-/heft-api-extractor-plugin-1.3.30.tgz#4b0b3b7370b7df024bb822605fbebd1eaff2ee58"
-  integrity sha512-91/nwiWHcejalOLbwNS0OaEwSqeR0/SY/vH2CFyxfJaSiFCsVLlYfuZzu6YgLKn7roJVFI+D8+P+qZCpWrSJ+w==
+"@rushstack/heft-api-extractor-plugin@1.3.31":
+  version "1.3.31"
+  resolved "https://registry.yarnpkg.com/@rushstack/heft-api-extractor-plugin/-/heft-api-extractor-plugin-1.3.31.tgz#43747e1c5ffe60bed30eef16fa1c0ed4ddef7e22"
+  integrity sha512-uulBff64cfeDvJEA2Hy0HEtjyiPFnSy7XFieheu39KFFuSdrlxwYVp3AXsTS3aj9ItkzQptt7b+Jcnz0U16Mfg==
   dependencies:
     "@rushstack/node-core-library" "5.25.1"
     semver "~7.7.4"
@@ -1144,10 +1144,10 @@
     "@rushstack/terminal" "0.24.7"
     jsonpath-plus "~10.3.0"
 
-"@rushstack/heft-jest-plugin@2.0.20":
-  version "2.0.20"
-  resolved "https://registry.yarnpkg.com/@rushstack/heft-jest-plugin/-/heft-jest-plugin-2.0.20.tgz#78f88aa5ee1b9ed6a194d5c281f46ba1ff7b4a28"
-  integrity sha512-ERIwK2SSZ86rOVKL98Q+OxrtYQWWCFImDM3doqkebqTxrINBOWL+itK1eFjP9nq59bGdl0Nx9GcusjIXBnNnEg==
+"@rushstack/heft-jest-plugin@2.0.21":
+  version "2.0.21"
+  resolved "https://registry.yarnpkg.com/@rushstack/heft-jest-plugin/-/heft-jest-plugin-2.0.21.tgz#283170fe966c3c87da94fc44b15a249aa2296ee2"
+  integrity sha512-lMjE9MDqsFLpdVo9qGOr5wsz2MGXO9r/TS3L7z0Ec7zDRubmXvtpJYSGRB5/1q4ZpfOzRfNI2KNSqK5yDIQz6w==
   dependencies:
     "@jest/core" "~30.3.0"
     "@jest/reporters" "~30.3.0"
@@ -1159,35 +1159,35 @@
     jest-resolve "~30.3.0"
     jest-snapshot "~30.3.0"
 
-"@rushstack/heft-lint-plugin@1.4.0":
-  version "1.4.0"
-  resolved "https://registry.yarnpkg.com/@rushstack/heft-lint-plugin/-/heft-lint-plugin-1.4.0.tgz#454ef0964bc7d76e9ff6f72d6eca606660eb647c"
-  integrity sha512-UZDwsyQxV/jjRZbFP5OX27EfOVfoOXvhPwVfKTIsu9IJNkm4sgnRb/NNnipUWzwXi5riRYKDNDpq7h2nh5/X0w==
+"@rushstack/heft-lint-plugin@1.4.1":
+  version "1.4.1"
+  resolved "https://registry.yarnpkg.com/@rushstack/heft-lint-plugin/-/heft-lint-plugin-1.4.1.tgz#03c5b0d099965c2821eab2cdbac76456daa89590"
+  integrity sha512-BPJKxIbqLPVyQshyK2nUi5jZlOSam9h/iU57kQbdDzSSR0eGXscIyoMqVkU+wWeTiCWhHzgII2jqnjpBkHx79Q==
   dependencies:
     "@rushstack/node-core-library" "5.25.1"
     json-stable-stringify-without-jsonify "1.0.1"
     semver "~7.7.4"
 
-"@rushstack/heft-node-rig@2.11.54":
-  version "2.11.54"
-  resolved "https://registry.yarnpkg.com/@rushstack/heft-node-rig/-/heft-node-rig-2.11.54.tgz#240f9bd40ea81d9e2fd1c65df103e1c5c8cd957a"
-  integrity sha512-5MoDm4WkueSglmJ03E3vBFOAcfuAMpXCw5ZU6Szwscwr67P+4US5uf09bBfokB1Y5kDexdjvwxd7DHuTvFRdgQ==
+"@rushstack/heft-node-rig@2.11.55":
+  version "2.11.55"
+  resolved "https://registry.yarnpkg.com/@rushstack/heft-node-rig/-/heft-node-rig-2.11.55.tgz#062dc4fb94240f7c0b965809d7bf9b8dba764178"
+  integrity sha512-Dx/iLn3hiSxVOWvfO/fMuO6uhBHaqL2QD2KNx0Frq8U77Q9pdE/tga21NT+/fTY6uWYWLWYRz8BZdw8bjh5ttg==
   dependencies:
-    "@microsoft/api-extractor" "7.59.4"
+    "@microsoft/api-extractor" "7.60.0"
     "@rushstack/eslint-config" "4.9.0"
-    "@rushstack/heft-api-extractor-plugin" "1.3.30"
-    "@rushstack/heft-jest-plugin" "2.0.20"
-    "@rushstack/heft-lint-plugin" "1.4.0"
-    "@rushstack/heft-typescript-plugin" "1.3.25"
+    "@rushstack/heft-api-extractor-plugin" "1.3.31"
+    "@rushstack/heft-jest-plugin" "2.0.21"
+    "@rushstack/heft-lint-plugin" "1.4.1"
+    "@rushstack/heft-typescript-plugin" "1.3.26"
     "@types/jest" "30.0.0"
     eslint "~9.37.0"
     jest-environment-node "~30.3.0"
     typescript "~5.8.2"
 
-"@rushstack/heft-typescript-plugin@1.3.25":
-  version "1.3.25"
-  resolved "https://registry.yarnpkg.com/@rushstack/heft-typescript-plugin/-/heft-typescript-plugin-1.3.25.tgz#b415ff11eacdac44ec3cd863263f960e9f1d9736"
-  integrity sha512-wZD3d/mHnKyhf6ipcBF5UZIxkBJDWD40Yj6QpDJRoaK36KiIw2rcAO56jKPGoMV1f/tDgHZ8bf33grIGhrB+qA==
+"@rushstack/heft-typescript-plugin@1.3.26":
+  version "1.3.26"
+  resolved "https://registry.yarnpkg.com/@rushstack/heft-typescript-plugin/-/heft-typescript-plugin-1.3.26.tgz#55ea83abe11fd30859b5c917cebb6f11d0dcb862"
+  integrity sha512-BgFObHOtBtoNRun1s6Fi24tOKTyMGfukUs1oKvcb96SWlfgKgj3w59uGhS7q1+QbpkaPYdHzeeL9ZrR7xMlkhg==
   dependencies:
     "@rushstack/heft-config-file" "0.20.17"
     "@rushstack/node-core-library" "5.25.1"
@@ -1195,10 +1195,10 @@
     semver "~7.7.4"
     tapable "1.1.3"
 
-"@rushstack/heft@1.3.3":
-  version "1.3.3"
-  resolved "https://registry.yarnpkg.com/@rushstack/heft/-/heft-1.3.3.tgz#1a3ffd429dfd3d548deea08c849766e4f2507c5a"
-  integrity sha512-4kiFaYlnTbJWrMKZE6jOqg4fNqSZYPaaVuslq6bG3dtfyABI8SB4pB44eyFSIzHNwIs03C8+FUTdx4EwZBafEw==
+"@rushstack/heft@1.3.4":
+  version "1.3.4"
+  resolved "https://registry.yarnpkg.com/@rushstack/heft/-/heft-1.3.4.tgz#a13a910868eed377ae75efa261f39d925d3be691"
+  integrity sha512-UQ7DwADui229AZG7GJgNmoMNOqSq49HaXcFtjgF+TmJbNPES84/0YwFkyUg9YicV0cEl9+3hTfKg6Wpzr3xcgQ==
   dependencies:
     "@rushstack/heft-config-file" "0.20.17"
     "@rushstack/node-core-library" "5.25.1"
@@ -5661,6 +5661,11 @@ typescript@5.9.3:
   version "5.9.3"
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-5.9.3.tgz#5b4f59e15310ab17a216f5d6cf53ee476ede670f"
   integrity sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw==
+
+typescript@6.0.3:
+  version "6.0.3"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-6.0.3.tgz#90251dc007916e972786cb94d74d15b185577d21"
+  integrity sha512-y2TvuxSZPDyQakkFRPZHKFm+KKVqIisdg9/CZwm9ftvKXLP8NRWj38/ODjNbr43SsoXqNuAisEf1GdCxqWcdBw==
 
 typescript@~4.2.4:
   version "4.2.4"
