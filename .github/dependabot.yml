@@ -51,6 +51,8 @@ updates:
           - "typescript"
           - "webpack"
           - "node-notifier"
+    cooldown:
+      default-days: 7
 
   # Docker dependencies for devcontainer
   - package-ecosystem: "docker"
@@ -68,6 +70,11 @@ updates:
       - "docker"
     reviewers:
       - "KevinTCoughlin"
+    groups:
+      docker:
+        patterns: ["*"]
+    cooldown:
+      default-days: 7
 
   # GitHub Actions dependencies
   - package-ecosystem: "github-actions"
@@ -85,3 +92,8 @@ updates:
       - "github-actions"
     reviewers:
       - "KevinTCoughlin"
+    groups:
+      github-actions:
+        patterns: ["*"]
+    cooldown:
+      default-days: 7
