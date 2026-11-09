@@ -16,41 +16,14 @@ updates:
     labels:
       - "dependencies"
       - "npm"
-    reviewers:
-      - "KevinTCoughlin"
     ignore:
       # TypeScript 7 breaks the heft build (see #465)
       - dependency-name: "typescript"
         update-types: ["version-update:semver-major"]
+    # One PR per week for every npm update, majors included.
     groups:
-      # Group production dependencies
-      production-dependencies:
-        update-types: ["minor", "patch"]
-        patterns:
-          - "*"
-        exclude-patterns:
-          - "@types/*"
-          - "@microsoft/*"
-          - "@rushstack/*"
-          - "eslint*"
-          - "mocha"
-          - "should"
-          - "typescript"
-          - "webpack"
-          - "node-notifier"
-      # Group development dependencies  
-      development-dependencies:
-        update-types: ["minor", "patch"]
-        patterns:
-          - "@types/*"
-          - "@microsoft/*"
-          - "@rushstack/*"
-          - "eslint*"
-          - "mocha"
-          - "should"
-          - "typescript"
-          - "webpack"
-          - "node-notifier"
+      npm:
+        patterns: ["*"]
     cooldown:
       default-days: 7
 
@@ -68,8 +41,6 @@ updates:
     labels:
       - "dependencies"
       - "docker"
-    reviewers:
-      - "KevinTCoughlin"
     groups:
       docker:
         patterns: ["*"]
@@ -90,8 +61,6 @@ updates:
     labels:
       - "dependencies"
       - "github-actions"
-    reviewers:
-      - "KevinTCoughlin"
     groups:
       github-actions:
         patterns: ["*"]
