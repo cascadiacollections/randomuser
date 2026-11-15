@@ -29,7 +29,7 @@
     "@types/node-fetch": "^2.6.11",
     "@types/request": "^2.48.13",
     "@types/webpack-env": "1.18.8",
-    "eslint": "10.14.0",
+    "eslint": "10.15.0",
     "mocha": "12.0.3",
     "node-notifier": "12.1.0",
     "should": "^13.2.3",
@@ -43,6 +43,13 @@
     "lodash": "^4.18.1",
     "serialize-javascript": "^7.1.4",
     "uuid": "^11.1.1",
-    "validator": "^13.15.35"
+    "validator": "^13.15.35",
+    "**/@typescript-eslint/typescript-estree/minimatch": "^11.0.8",
+    "**/@microsoft/api-extractor/minimatch": "^11.0.8",
+    "**/mocha/minimatch": "^11.0.8",
+    "**/mocha/glob": "^14.0.6",
+    "**/@jest/reporters/glob": "^14.0.6",
+    "**/jest-runtime/glob": "^14.0.6",
+    "**/jest-config/glob": "^14.0.6"
   }
 }
