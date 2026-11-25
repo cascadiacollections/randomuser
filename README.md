@@ -3,6 +3,7 @@
 [![CI](https://github.com/cascadiacollections/randomuser/actions/workflows/node.js.yml/badge.svg)](https://github.com/cascadiacollections/randomuser/actions/workflows/node.js.yml)
 [![npm version](https://img.shields.io/npm/v/randomuser.svg?style=flat-square)](https://www.npmjs.com/package/randomuser)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![OpenSSF Scorecard](https://api.scorecard.dev/projects/github.com/cascadiacollections/randomuser/badge)](https://scorecard.dev/viewer/?uri=github.com/cascadiacollections/randomuser)
 
 A tiny NodeJS client for generating random users using the [RandomUser.me](https://randomuser.me) API. Perfect for testing, prototyping, and generating placeholder user data for your applications.
 
